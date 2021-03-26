@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" revision="161" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" revision="161" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="180" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="cb54-c035-pubN125652" name="Codex: Heretic Astartes - Chaos Space Marines"/>
     <publication id="cb54-c035-pubN153092" name="Imperium Nihilus: Vigilus Ablaze"/>
@@ -14752,6 +14752,68 @@ If your summoning roll included any doubles, your character then suffers a morta
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="13ef-ecc8-a315-9b88" name="Primarch" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="7361-04e4-d6ab-d3e7" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="649f-80f9-0d71-64c3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4924-7505-4fe0-066e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63f2-3c23-5ea3-deea" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7361-04e4-d6ab-d3e7" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="0308-4c0f-c192-20fa" name="It Will Not Die" hidden="false">
+          <description>Al final de cada uno de tus turnos, tira un D6 por cada una de tus miniaturas con esta regla especial que tiene menos de su número inicial de Heridas, pero que no ha sido eliminada como baja ni destruida. Con una tirada de 5+, esa miniatura recupera una Herida, perdida anteriormente en el juego.</description>
+        </rule>
+        <rule id="603b-b05e-5d1c-b888" name="Fleet" hidden="false">
+          <description>Una unidad compuesta enteramente por miniaturas con esta regla especial puede repetir uno o más dados para avanzar o cargar.</description>
+        </rule>
+        <rule id="850c-45d1-bc3b-08aa" name="Fear" hidden="false">
+          <description>Al comienzo de cada subfase de Combate, todas las unidades en &quot;rango de amenaza&quot; sufren la regla especial Miedo. Deben realizar una prueba de Liderazgo (llamada prueba de Miedo) antes de recibir algún golpe. Si se pasa la prueba, todo está bien y no hay ningún efecto. Si la prueba falla, la unidad sucumbe al miedo: todas las miniaturas de la unidad tienen su Habilidad de armas reducida a 1 durante el resto de esa subfase de Lucha. Tenga en cuenta que un modelo que causa Miedo no es en sí mismo inmune al Miedo, y aún necesitará realizar una prueba de Miedo si se encuentra en rango de amenaza de cualquier miniatura enemiga que cause Miedo.</description>
+        </rule>
+        <rule id="200a-0fe3-1089-1557" name="Fearless" hidden="false">
+          <description>Las unidades que contienen una o más miniaturas con esta regla especial pasan automáticamente los chequeos de Moral y de Miedo.</description>
+        </rule>
+        <rule id="2dc2-5a77-785c-9ecf" name="Eternal Warrior" hidden="false">
+          <description>Si una miniatura con esta regla especial sufre una Herida Mortal sin salvar a 5+ se ignora.</description>
+        </rule>
+        <rule id="60dd-77ff-8625-1ef1" name="Adamantium Will" hidden="false">
+          <description>Todas las miniaturas enemigas a 18&quot; de una unidad que contenga al menos 1 miniatura con esta regla restan 1 a la tirada de chequeo psíquico.</description>
+        </rule>
+        <rule id="6fbe-16fd-5578-1459" name="Precision Strikes" hidden="false">
+          <description>Golpes de precisión: si un modelo con esta regla especial obtiene un 6 al impactar (hit) con un arma cuerpo a cuerpo, ese golpe es un &quot;Golpe de precisión&quot;.
+
+Las Heridas de Golpes de Precisión se asignan contra una miniatura (o miniaturas) de su elección en la unidad objetivo, siempre que la unidad esté dentro del &quot;rango de amenaza&quot;, en lugar de seguir las reglas normales para la asignación de Heridas.</description>
+        </rule>
+        <rule id="8a2a-7667-4e16-ab75" name="Precision Shots" hidden="false">
+          <description>Si una miniatura con esta regla especial obtiene un 6 para impactar con un arma de disparo, ese disparo es un &quot;Disparo de precisión&quot;.
+
+Las Heridas de Disparos de Precisión se asignan contra una miniatura (o miniaturas) de su elección en la unidad objetivo, siempre que esté dentro del alcance y la línea de visión del tirador, en lugar de seguir las reglas normales para la asignación de Heridas.</description>
+        </rule>
+        <rule id="46e9-528a-32e9-17fa" name="Chapter Primarch" hidden="false">
+          <description>Puedes repetir las tiradas para impactary para herir de 1 para unidades &lt;LEGION&gt; amigas a 6 &quot;o menos de esta miniatura.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f0d5-2c8d-1d9f-61f5" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="393f-3e3e-0654-d870" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe08-e39b-7d5f-675b" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
