@@ -4,6 +4,7 @@
     <publication id="cb54-c035-pubN125652" name="Codex: Heretic Astartes - Chaos Space Marines"/>
     <publication id="cb54-c035-pubN153092" name="Imperium Nihilus: Vigilus Ablaze"/>
     <publication id="ef58-6fca-70d8-3908" name="Warhammer Legends: Chaos Space Marines" shortName="Legends: CSM" publicationDate="2019-12-04" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2019/12/5e7399ab.pdf"/>
+    <publication id="d29c-27bd-74fc-57c6" name="HH: LAICL" shortName="HH: LAICL"/>
   </publications>
   <profileTypes>
     <profileType id="ecda-13fc-b1ec-ed87" name="Enhanced Warriors">
@@ -1274,6 +1275,36 @@
         <entryLink id="566e-cd38-f203-e7a6" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
+    <entryLink id="fae6-2eb7-99bd-91c4" name="Fulgrim" hidden="false" collective="false" import="true" targetId="3e24-d08b-9012-0081" type="selectionEntry">
+      <comment>The Illuminator</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="51f6-1db1-3e75-3d4b" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7049-f86b-e228-bbaf" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="6be8-c2cf-e0dd-ed79" name="Alpharius" hidden="false" collective="false" import="true" targetId="6e49-285e-7f8c-e78a" type="selectionEntry">
+      <comment>The last Primarch</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9b8a-fb30-b445-3049" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7049-f86b-e228-bbaf" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="77fd-f3de-18b4-fe06" name="Despoilers of the Galaxy" hidden="true">
@@ -1904,7 +1935,7 @@ If your summoning roll included any doubles, your character then suffers a morta
           </constraints>
         </entryLink>
         <entryLink id="09ea-c18c-74a5-467d" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
-        <entryLink id="aef4-d477-9cb8-263a" name="Chaos Lord Weapon options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
+        <entryLink id="aef4-d477-9cb8-263a" name="Weapon options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
         <entryLink id="d2b5-bf29-6206-9dfa" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup"/>
         <entryLink id="c69c-1c9f-ce3a-d4a1" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
         <entryLink id="aac3-5cbd-74d9-5150" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
@@ -1929,7 +1960,7 @@ If your summoning roll included any doubles, your character then suffers a morta
           </modifiers>
         </entryLink>
         <entryLink id="3df6-da9d-4f38-d33a" name="Reaver Lord Artefact" hidden="false" collective="false" import="true" targetId="eed7-3e77-45e0-fa17" type="selectionEntry"/>
-        <entryLink id="6c73-f69b-2b45-50ae" name="Artefacts of Chaos (Reaver)" hidden="false" collective="false" import="true" targetId="c524-957d-6e90-c45b" type="selectionEntryGroup"/>
+        <entryLink id="6c73-f69b-2b45-50ae" name="Artefacts of Chaos (Reaver Lord)" hidden="false" collective="false" import="true" targetId="c524-957d-6e90-c45b" type="selectionEntryGroup"/>
         <entryLink id="8d00-dfd5-240e-2853" name="We Are Alpharius" hidden="false" collective="false" import="true" targetId="2633-9684-dace-c39c" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -5432,7 +5463,7 @@ If your summoning roll included any doubles, your character then suffers a morta
           </modifiers>
         </entryLink>
         <entryLink id="4981-9290-9ba0-19f2" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="e267-ed36-60b2-ef88" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="e267-ed36-60b2-ef88" name="Custom Character Selections (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="8abd-92dc-437c-3ec9" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -14755,65 +14786,445 @@ If your summoning roll included any doubles, your character then suffers a morta
       </costs>
     </selectionEntry>
     <selectionEntry id="13ef-ecc8-a315-9b88" name="Primarch" page="0" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="7361-04e4-d6ab-d3e7" value="1.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="649f-80f9-0d71-64c3" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4924-7505-4fe0-066e" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63f2-3c23-5ea3-deea" type="max"/>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7361-04e4-d6ab-d3e7" type="min"/>
       </constraints>
-      <rules>
-        <rule id="0308-4c0f-c192-20fa" name="It Will Not Die" hidden="false">
-          <description>Al final de cada uno de tus turnos, tira un D6 por cada una de tus miniaturas con esta regla especial que tiene menos de su número inicial de Heridas, pero que no ha sido eliminada como baja ni destruida. Con una tirada de 5+, esa miniatura recupera una Herida, perdida anteriormente en el juego.</description>
-        </rule>
-        <rule id="603b-b05e-5d1c-b888" name="Fleet" hidden="false">
-          <description>Una unidad compuesta enteramente por miniaturas con esta regla especial puede repetir uno o más dados para avanzar o cargar.</description>
-        </rule>
-        <rule id="850c-45d1-bc3b-08aa" name="Fear" hidden="false">
-          <description>Al comienzo de cada subfase de Combate, todas las unidades en &quot;rango de amenaza&quot; sufren la regla especial Miedo. Deben realizar una prueba de Liderazgo (llamada prueba de Miedo) antes de recibir algún golpe. Si se pasa la prueba, todo está bien y no hay ningún efecto. Si la prueba falla, la unidad sucumbe al miedo: todas las miniaturas de la unidad tienen su Habilidad de armas reducida a 1 durante el resto de esa subfase de Lucha. Tenga en cuenta que un modelo que causa Miedo no es en sí mismo inmune al Miedo, y aún necesitará realizar una prueba de Miedo si se encuentra en rango de amenaza de cualquier miniatura enemiga que cause Miedo.</description>
-        </rule>
-        <rule id="200a-0fe3-1089-1557" name="Fearless" hidden="false">
-          <description>Las unidades que contienen una o más miniaturas con esta regla especial pasan automáticamente los chequeos de Moral y de Miedo.</description>
-        </rule>
-        <rule id="2dc2-5a77-785c-9ecf" name="Eternal Warrior" hidden="false">
-          <description>Si una miniatura con esta regla especial sufre una Herida Mortal sin salvar a 5+ se ignora.</description>
-        </rule>
-        <rule id="60dd-77ff-8625-1ef1" name="Adamantium Will" hidden="false">
-          <description>Todas las miniaturas enemigas a 18&quot; de una unidad que contenga al menos 1 miniatura con esta regla restan 1 a la tirada de chequeo psíquico.</description>
-        </rule>
-        <rule id="6fbe-16fd-5578-1459" name="Precision Strikes" hidden="false">
-          <description>Golpes de precisión: si un modelo con esta regla especial obtiene un 6 al impactar (hit) con un arma cuerpo a cuerpo, ese golpe es un &quot;Golpe de precisión&quot;.
+      <profiles>
+        <profile id="4b43-5ef9-aa0b-d5c2" name="Adamantium Will" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Todas las miniaturas enemigas a 18&quot; de una unidad que contenga al menos 1 miniatura con esta regla restan 1 a la tirada de chequeo psíquico.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="061c-c8f6-f4d6-b75e" name="Eternal Warrior" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si una miniatura con esta regla especial sufre una Herida Mortal sin salvar a 5+ se ignora.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a309-6418-1789-2e66" name="Fear" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Al comienzo de cada subfase de Combate, todas las unidades en &quot;rango de amenaza&quot; sufren la regla especial Miedo. Deben realizar una prueba de Liderazgo (llamada prueba de Miedo) antes de recibir algún golpe. Si se pasa la prueba, todo está bien y no hay ningún efecto. Si la prueba falla, la unidad sucumbe al miedo: todas las miniaturas de la unidad tienen su Habilidad de armas reducida a 1 durante el resto de esa subfase de Lucha. Tenga en cuenta que un modelo que causa Miedo no es en sí mismo inmune al Miedo, y aún necesitará realizar una prueba de Miedo si se encuentra en rango de amenaza de cualquier miniatura enemiga que cause Miedo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6ede-3871-0249-ad5f" name="Fearless" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Las unidades que contienen una o más miniaturas con esta regla especial pasan automáticamente los chequeos de Moral y de Miedo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="16d3-be70-2c17-1624" name="Fleet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Una unidad compuesta enteramente por miniaturas con esta regla especial puede repetir uno o más dados para avanzar o cargar.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="52a1-b0a3-e6c1-7726" name="It Will Not Die" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Al final de cada uno de tus turnos, tira un D6 por cada una de tus miniaturas con esta regla especial que tiene menos de su número inicial de Heridas, pero que no ha sido eliminada como baja ni destruida. Con una tirada de 5+, esa miniatura recupera una Herida, perdida anteriormente en el juego.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="40da-8b51-eaf8-dfc4" name="Maximum Precision" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si una miniatura con esta regla especial obtiene un 6 para herir,  las heridas no salvadas se asignan contra una miniatura de su elección en la unidad objetivo, siempre que esté dentro del alcance y la línea de visión del tirador, en lugar de seguir las reglas normales para la asignación de Heridas.
 
-Las Heridas de Golpes de Precisión se asignan contra una miniatura (o miniaturas) de su elección en la unidad objetivo, siempre que la unidad esté dentro del &quot;rango de amenaza&quot;, en lugar de seguir las reglas normales para la asignación de Heridas.</description>
-        </rule>
-        <rule id="8a2a-7667-4e16-ab75" name="Precision Shots" hidden="false">
-          <description>Si una miniatura con esta regla especial obtiene un 6 para impactar con un arma de disparo, ese disparo es un &quot;Disparo de precisión&quot;.
-
-Las Heridas de Disparos de Precisión se asignan contra una miniatura (o miniaturas) de su elección en la unidad objetivo, siempre que esté dentro del alcance y la línea de visión del tirador, en lugar de seguir las reglas normales para la asignación de Heridas.</description>
-        </rule>
-        <rule id="46e9-528a-32e9-17fa" name="Chapter Primarch" hidden="false">
-          <description>Puedes repetir las tiradas para impactary para herir de 1 para unidades &lt;LEGION&gt; amigas a 6 &quot;o menos de esta miniatura.</description>
-        </rule>
-      </rules>
+Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;escudo canijo&quot;, o similares donde se puede asignar la herida a otra miniatura.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1b1f-50e0-222c-148f" name="Chapter Primarch" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Puedes repetir las tiradas para impactar y para herir de 1 para unidades &lt;LEGION&gt; amigas a 6 &quot;o menos de esta miniatura.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="f0d5-2c8d-1d9f-61f5" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="393f-3e3e-0654-d870" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe08-e39b-7d5f-675b" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e24-d08b-9012-0081" name="Fulgrim" publicationId="d29c-27bd-74fc-57c6" page="36" hidden="false" collective="false" import="true" type="model">
+      <comment>The Illuminator</comment>
+      <modifiers>
+        <modifier type="set" field="1766-03ec-c4ca-5351" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7049-f86b-e228-bbaf" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="51f6-1db1-3e75-3d4b" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="092a-9e35-bcc8-9141" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1766-03ec-c4ca-5351" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="bfae-b232-5f5f-d6e0" name="Fulgrim the Illuminator" publicationId="d29c-27bd-74fc-57c6" page="36" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="473d-bf8c-a938-546a" name="Sire of the Emperor&apos;s Children" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Todas las unidades &quot;Emperor&apos;s Children&quot; que se encuentren a 6&quot; de esta miniatura pasan automáticamente chequeos de moral.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="63d4-d9c7-6d4a-5899" name="Strategic Planning" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Al comienzo del juego, se puede elegir para Fulgrim un único rasgo de señor de la guerra de la tabla de rasgos de señor de la guerra de la Legión Emperor&apos;s Children.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9242-1bff-28ae-c1cc" name="The Gilded Panoply" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Proporciona una salvación por armadura de 2+ y 5++ por salvación invulnerable.  Además, tira un dado cada vez que una miniatura con esta regla pierda una herida, a menos que esa herida se haya perdido como resultado de una herida mortal; con un 6, la herida no se pierde.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b526-23c7-401e-cb78" name="Sublime Swordsman" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si esta unidad hace un movimiento de carga, recibe una carga o realiza una intervención heroica, la salvación invulnerable aumenta a ++3 durante toda la fase de combate. Además, elige una unidad que se encuentre en zona de amenaza, si su liderazgo es mayor, gana un número de ataques igual a la diferencia entre su liderazgo y su openente, si todos sus ataques son dirigidos contra esta unidad.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="158b-e14c-9683-b9ab" name="Firebrand" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">15&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistola 2</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D3</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Una tirada de 6+ para herir causa una herida mortal adicional al daño.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c275-25ca-6784-dc56" name="Special Abilities" hidden="false" targetId="9bbf-a7df-8d09-b667" type="infoGroup"/>
+        <infoLink id="f5ea-d815-4e1e-d029" name="Death to the False Emperor" hidden="false" targetId="37a4-1d84-4ef0-c4f6" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="19b8-b7da-0927-8ffb" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+        <categoryLink id="5f35-c475-fdd7-b83d" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="d24e-8a10-55f8-b76f" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="02a1-21e2-51ac-b96d" name="Primarch" hidden="false" targetId="298f-d173-2159-919f" primary="false"/>
+        <categoryLink id="eaa0-b1db-900b-fe88" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="007c-4a70-c49b-601a" name="Faction: Emperor&apos;s Children" hidden="false" targetId="649f-80f9-0d71-64c3" primary="false"/>
+        <categoryLink id="f1ac-f52e-7b91-7838" name="Faction: Slaanesh" hidden="false" targetId="1da2-76db-f76f-6b6c" primary="false"/>
+        <categoryLink id="97c9-dcf3-880e-1790" name="Faction: Heretic Astartes" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="52e8-8f04-deca-ad1a" name="Melee Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9962-ee9a-77c8-2df4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7d0c-3fab-6375-92b2" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b6ff-8e98-6234-d459" name="The Blade of the Laer" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="76cb-43a6-9e65-69b0" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="434b-1439-6a4d-be9a" name="The Blade of the Laer" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D3</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Una tirada de 5+ para herir causa 1 herida mortal adicional al daño.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2404-2996-72ca-e6d6" name="Fireblade" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bdbd-c8c6-8a08-dd2f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b923-f118-7bcd-f7ad" name="Fireblade" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Una tirada de 5+ para impactar crea tres impactos adicionales.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="bbee-71cc-3425-2086" name="Primarch" hidden="false" collective="false" import="true" targetId="13ef-ecc8-a315-9b88" type="selectionEntry"/>
+        <entryLink id="f07d-eba2-fd44-367e" name="Warlord Traits (Emperor&apos;s Children)" hidden="false" collective="false" import="true" targetId="20f6-0d4f-0ee6-d4bc" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="feae-8926-f679-9e2f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6af4-bd75-d268-d8c8" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="2d3b-b544-ad49-fb75" value="1.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8ea-208a-3d8d-cea0" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="803e-370a-33a6-de5e" name="Master of the Legion " hidden="false" targetId="9582-203e-a98b-411f" type="profile"/>
+          </infoLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="120.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e49-285e-7f8c-e78a" name="Alpharius" hidden="false" collective="false" import="true" type="model">
+      <comment>The last Primarch</comment>
+      <modifiers>
+        <modifier type="set" field="3458-f92f-0b2a-a17e" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7049-f86b-e228-bbaf" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9b8a-fb30-b445-3049" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="89cc-40fc-728d-0a13" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3458-f92f-0b2a-a17e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4591-5352-5ff7-404a" name="Alpharius, The last Primarch" publicationId="d29c-27bd-74fc-57c6" page="36" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="942f-a7a9-0d57-5e41" name="The Pythian Scales" publicationId="d29c-27bd-74fc-57c6" page="95" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Provee 2+ armadura y 4++ de salvación invulnerable y no se ve afectado por armas envenenadas. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9c19-3815-c961-c0a7" name="Insidious Mastermind" publicationId="d29c-27bd-74fc-57c6" page="95" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Las unidades que ingresen por reserva estratégica pueden ingresar a 6&quot; de Alpharius pero a más de 6&quot; de una unidad enemiga.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bf9e-5efc-c769-d404" name="Sire of the Alpha Legion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Todas la unidades &quot;Legion Alpha&quot; a 6&quot; de Alpharius ignoran unidades enemigas y terreno cuando avanzan. Debe seguir las reglas normales cuando termina el movimiento.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="88af-3cb9-a0a2-5faf" name="Cameleoline" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">-1 Hit contra todo tipo de ataques.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6e46-238c-5ca4-4517" name="Cognis-signum" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Una unidad a 6&quot; del portador tiene +1 Hit en la fase de disparo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="605e-c7be-ddb3-784a" name="Nuncio-vox" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Las unidades que llegen por despliegue rápido a 6&quot; del portador obtienen -1 Hit por ese turno cuando los atacan con armas a distancia.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e31f-79d3-37e5-eea8" name="Bulky" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Esta unidad se puede subir a cualquier transporte &quot;Chaos&quot; pero cuenta como 2 miniaturas para el conteo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0b42-bb47-9e24-41a0" name="Counter-attack" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Una miniatura con esta regla recibe +1 ataque extra el turno que recibe una carga.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8d5f-2f8e-70ea-5a55" name="Crusader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Tira 1 dado extra para avanzar y se queda con el más alto.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="16bd-bc8b-173a-0730" name="Move Through Cover" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Alpharius puede ignorar el terreno y las miniaturas amigas al momento de cargar (pasan a través de).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="35ff-d0d9-d2a5-98a3" name="Preferred Enemy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Al comienzo de la Partida Alpharius elige una unidad enemiga como enemigo Predilecto, pudiendo repetir para Herir e Impactar contra esta unidad.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6662-f209-767a-c5f1" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+        <categoryLink id="356e-0599-7400-63b4" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="08a2-8195-3265-404a" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="bb14-5190-b900-f5f1" name="Faction: Alpha Legion" hidden="false" targetId="1e3f-0a7b-0c8f-84db" primary="false"/>
+        <categoryLink id="97fd-edbf-fae3-91c6" name="Faction: Heretic Astartes" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
+        <categoryLink id="766f-abbf-eefa-0900" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="f119-1df9-6d93-88b2" name="Primarch" hidden="false" targetId="298f-d173-2159-919f" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6063-fcf5-0ea3-8256" name="Venom Spheres" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0024-5e6c-184d-2619" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d73-e2a3-41e5-a026" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="83c7-a89f-e500-8d03" name="Venom Spheres (Frag)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1D6</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast, envenenada 4+ (hiere automáticamente)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c3fa-8cf8-8ceb-9902" name="Venom Spheres (Krak)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D3 + 1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Para determinar el daño tira 2 dados en lugar de 1 y selecciona el mayor.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dabe-e9be-aadb-ca47" name="The Pale Spear" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75e7-9a12-dedc-9b8c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c627-afc9-734b-c976" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="566d-df8c-b11e-3058" name="The Pale Spear (Strike)" publicationId="d29c-27bd-74fc-57c6" page="95" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Cada tirada para herir de 6+ causa 1 herida mortal adicional al daño.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="bce0-3281-c616-0638" name="The Pale Spear (Sweep)" publicationId="d29c-27bd-74fc-57c6" page="95" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Hace 2 tiradas para impactar por cada ataque efectuado con esta arma en lugar de 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4c92-f9f5-c0a7-5a45" name="Master-crafted Plasma Blaster" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="042b-5d69-a5ab-c473" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed4c-edfc-e4d5-2f79" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2c0a-07bb-8614-1bd7" name="Plasma Blaster, Standar" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+              </characteristics>
+            </profile>
+            <profile id="f61c-175c-6b94-1db0" name="Plasma Blaster, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Por cada tirada &quot;natural&quot; para impactar de 1, el portador recibe una herida mortal sin posibilidad de tirar salvación de ningún tipo.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="4f24-15e4-a3a3-22b9" name="Primarch" hidden="false" collective="false" import="true" targetId="13ef-ecc8-a315-9b88" type="selectionEntry"/>
+        <entryLink id="ae34-5542-a9be-2145" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="2d3b-b544-ad49-fb75" value="1.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9523-6744-37de-601e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0e3f-7945-5c23-5cdb" name="Scout" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si Alpharius es el señor de la guerra puede elegir una unidad que fue desplegada en turno uno y efectuar un movimiento antes que inicie la primera ronda d ebatalla pero después que todos los ejércitos estén desplegados.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e5cf-1a08-78c1-e990" name="One of Many" publicationId="d29c-27bd-74fc-57c6" page="95" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si Alpharius es el señor de la guerra, antes del inicio del primer turno, puede elegir 2 unidades que se encuentren desplegadas en mesa y dejarlas en reserva estratégica.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7620-40e2-aec2-bc30" name="Master of the Legion " hidden="false" targetId="9582-203e-a98b-411f" type="profile"/>
+          </infoLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="120.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -20544,6 +20955,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
     <profile id="a6a1-5807-9079-918d" name="Aura of Dark Majesty" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ invulnerable save. Each time an attack is made against this model, subtract 1 from that attack&apos;s hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9582-203e-a98b-411f" name="Master of the Legion " hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si tu ejército es &quot;Battle-forged&quot;, recibes 1 Command Point adicional si el Primarca es tu señor de la guerra.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
