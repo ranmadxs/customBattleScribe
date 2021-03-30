@@ -14822,7 +14822,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         </profile>
         <profile id="52a1-b0a3-e6c1-7726" name="It Will Not Die" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Al final de cada uno de tus turnos, tira un D6 por cada una de tus miniaturas con esta regla especial que tiene menos de su número inicial de Heridas, pero que no ha sido eliminada como baja ni destruida. Con una tirada de 5+, esa miniatura recupera una Herida, perdida anteriormente en el juego.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Al inicio del turno de mando del controlador, tira un D6 por cada una de tus miniaturas con esta regla especial que tiene menos de su número inicial de Heridas, pero que no ha sido eliminada como baja ni destruida. Con una tirada de 5+, esa miniatura recupera una Herida, perdida anteriormente en el juego.</characteristic>
           </characteristics>
         </profile>
         <profile id="40da-8b51-eaf8-dfc4" name="Maximum Precision" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -14832,9 +14832,9 @@ If your summoning roll included any doubles, your character then suffers a morta
 Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;escudo canijo&quot;, o similares donde se puede asignar la herida a otra miniatura.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1b1f-50e0-222c-148f" name="Chapter Primarch" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="1b1f-50e0-222c-148f" name="Death of the Warlord" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Puedes repetir las tiradas para impactar y para herir de 1 para unidades &lt;LEGION&gt; amigas a 6 &quot;o menos de esta miniatura.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Death of the Warlord: If your Warlord is removed as a casualty during your game, any abilities or special rules granted by their Warlord Trait are immediately lost. If the Warlord Trait in question conferred a special rule that allows an unusual method of deployment from Reserves (such as conferring the Outflank ability on certain units), that special rule is immediately lost and the affected units must instead deploy from Reserves in the normal fashion.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14844,9 +14844,25 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
         <infoLink id="8daf-cb16-e148-d73e" name="Fear" hidden="false" targetId="ef32-3bca-edab-c3ad" type="profile"/>
         <infoLink id="7bc7-27fe-2030-f137" name="Fearless" hidden="false" targetId="528f-b338-276c-d850" type="profile"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="f0d5-2c8d-1d9f-61f5" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5e30-00d1-d49c-222d" name="Master of The Legion" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="2d3b-b544-ad49-fb75" value="1.0"/>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="feae-8926-f679-9e2f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="102f-9d02-e3bc-f53f" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b850-56d0-57db-be7d" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ac9e-6bce-87ed-0c38" name="Master of the Legion " hidden="false" targetId="9582-203e-a98b-411f" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -15086,7 +15102,8 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
         </profile>
         <profile id="bf9e-5efc-c769-d404" name="Sire of the Alpha Legion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Todas la unidades &quot;Legion Alpha&quot; a 6&quot; de Alpharius Ganan la regla &quot;Preferred Enemy&quot; que estableció Alpharius.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Alpharius has Preferred Enemy (Everything), Counter-attack, Move Through Cover, Scout, and Crusader.
+All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain Preferred Enemy (Everything) within 6 &quot;of Alpharius.</characteristic>
           </characteristics>
         </profile>
         <profile id="88af-3cb9-a0a2-5faf" name="Cameleoline" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15096,7 +15113,7 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
         </profile>
         <profile id="6e46-238c-5ca4-4517" name="Cognis-signum" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Una unidad a 6&quot; del portador tiene +1 Hit en la fase de disparo.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your Shooting phase, you can select one friendly Alpha Legion Chaos Space Marine unit within 3&quot; of this model; models in that unit have a Ballistic Skill characteristic of 2+ until the end of that phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="605e-c7be-ddb3-784a" name="Nuncio-vox" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15119,14 +15136,10 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Alpharius puede ignorar el terreno y las miniaturas amigas al momento de cargar (pasan a través de).</characteristic>
           </characteristics>
         </profile>
-        <profile id="35ff-d0d9-d2a5-98a3" name="Preferred Enemy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Esta regla a menudo se presenta como Enemigo Preferido (X) donde X identifica un tipo específico de enemigo. Si la regla especial no especifica un tipo de enemigo, entonces todo el mundo es un Enemigo Preferido de la unidad. Una unidad que contiene al menos una miniatura con esta regla especial repite las tiradas fallidas para Impactar y Herir de 1 si ataca a su Enemigo Preferido. Esto se aplica tanto a los disparos como a los ataques cuerpo a cuerpo.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="b2af-6e54-9a4b-ac46" name="Crusader" hidden="false" targetId="8806-e485-e1f7-0b1d" type="profile"/>
+        <infoLink id="6cda-e25d-2ef2-b0b1" name="Preferred Enemy" hidden="false" targetId="48cd-32a7-6115-19b3" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6662-f209-767a-c5f1" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -15245,16 +15258,13 @@ Regla: Two-Handed</characteristic>
       <entryLinks>
         <entryLink id="4f24-15e4-a3a3-22b9" name="Primarch" hidden="false" collective="false" import="true" targetId="13ef-ecc8-a315-9b88" type="selectionEntry"/>
         <entryLink id="ae34-5542-a9be-2145" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="2d3b-b544-ad49-fb75" value="1.0"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9523-6744-37de-601e" type="max"/>
           </constraints>
           <profiles>
             <profile id="0e3f-7945-5c23-5cdb" name="Scout" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si Alpharius es el señor de la guerra puede elegir una unidad que fue desplegada en turno uno y efectuar un movimiento antes que inicie la primera ronda d ebatalla pero después que todos los ejércitos estén desplegados.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si Alpharius es el señor de la guerra puede elegir una unidad que fue desplegada en turno uno y efectuar un movimiento antes que inicie la primera ronda de batalla pero después que todos los ejércitos estén desplegados.</characteristic>
               </characteristics>
             </profile>
             <profile id="e5cf-1a08-78c1-e990" name="One of Many" publicationId="d29c-27bd-74fc-57c6" page="95" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15263,9 +15273,6 @@ Regla: Two-Handed</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="7620-40e2-aec2-bc30" name="Master of the Legion " hidden="false" targetId="9582-203e-a98b-411f" type="profile"/>
-          </infoLinks>
         </entryLink>
         <entryLink id="5c54-d330-223b-aecd" name="Warlord Traits (Alpha Legion)" hidden="false" collective="false" import="true" targetId="5979-9a2b-60df-4eac" type="selectionEntryGroup">
           <modifiers>
@@ -15329,21 +15336,10 @@ Regla: Two-Handed</characteristic>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Angron efectúa intervenciones heróicas a 6&quot;, además debe declarar carga o Intervención Heróica cada vez que pueda.</characteristic>
           </characteristics>
         </profile>
-        <profile id="c879-4369-bf3e-0238" name="Sire of the World Eaters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Angron has the Furious Charge and Feel No Pain special rules. In addition, when making a Consolidation move after combat, he must always move 6&quot; towards the nearest enemy unit. All friendly models with the Faction (World Eaters) special rule within 12&quot; of Angron are Fearless.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="b4e6-a935-4c91-a983" name="Furious Charge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">En un turno en el que una miniatura con esta regla especial carga en combate, agrega +1 a su característica de Fuerza hasta el final de la fase.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="3404-73b6-50c0-235d" name="Fearless" hidden="false" targetId="528f-b338-276c-d850" type="profile"/>
-        <infoLink id="8573-5c5f-47df-1d66" name="Feel No Pain" hidden="false" targetId="24eb-ecbf-94fe-aa91" type="profile"/>
-        <infoLink id="5efc-b2d2-cdf2-3609" name="Murderous Strike" hidden="false" targetId="358f-ebc5-6c93-c82a" type="rule"/>
+        <infoLink id="2d64-43f4-6217-c6c0" name="Murderous Strike" hidden="false" targetId="12e7-1e38-0187-f879" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5f29-0613-6d27-0ada" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -15409,20 +15405,26 @@ Regla: Two-Handed</characteristic>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="2ce9-d5e4-bd5f-aefa" name="Sire of the World Eaters" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="319d-1fdc-dd8d-8361" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa2d-20d8-b95f-1fee" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7aea-b179-0cf2-b1f8" name="Sire of the World Eaters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Angron has the Furious Charge and Feel No Pain special rules. In addition, when making a Consolidation move after combat, he must always move 6&quot; towards the nearest enemy unit. All friendly models with the Faction (World Eaters) special rule within 12&quot; of Angron are Fearless.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ef52-b049-d223-ca79" name="Feel No Pain" hidden="false" targetId="b8b7-db83-e263-a19c" type="rule"/>
+            <infoLink id="ff67-28db-548b-e3a2" name="Furious Charge" hidden="false" targetId="950f-164e-d8b5-db4a" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="fa26-bf63-4a3a-525e" name="Primarch" hidden="false" collective="false" import="true" targetId="13ef-ecc8-a315-9b88" type="selectionEntry"/>
-        <entryLink id="91e0-2633-0529-d725" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="2d3b-b544-ad49-fb75" value="1.0"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58f6-005d-78bb-948d" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="de94-f9e0-f360-c1e3" name="Master of the Legion " hidden="false" targetId="9582-203e-a98b-411f" type="profile"/>
-          </infoLinks>
-        </entryLink>
         <entryLink id="d7b9-7c5a-d8fa-110b" name="Warlord Traits (World Eaters)" hidden="false" collective="false" import="true" targetId="7d80-9f5f-6376-1cda" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -15431,6 +15433,11 @@ Regla: Two-Handed</characteristic>
               </conditions>
             </modifier>
           </modifiers>
+        </entryLink>
+        <entryLink id="584c-4d99-0db8-c6ab" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4795-99bd-1734-98c5" type="max"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
@@ -20919,6 +20926,15 @@ Can never be used to attack units within the firing unit’s Engagement Range. (
     <rule id="5f5a-3b75-2693-47db" name="Gets Hot" hidden="false">
       <description>Al disparar un arma que se calienta, tira para impactar como de costumbre. Por cada tirada de 1, sin modificar, para impactar, la miniatura que dispara sufre inmediatamente una Herida (se pueden realizar salvaciones con armadura o invulnerables).</description>
     </rule>
+    <rule id="b8b7-db83-e263-a19c" name="Feel No Pain" hidden="false">
+      <description>Cuando una miniatura con esta regla especial sufre una Herida sin salvar, puede realizar una tirada especial de Feel no Pain para evitar ser herido. (No puede ser utilizado contra heridas mortales), se debe tirar 1D6 a 5+ se ignora la herida.</description>
+    </rule>
+    <rule id="950f-164e-d8b5-db4a" name="Furious Charge" hidden="false">
+      <description>En un turno en el que una miniatura con esta regla especial carga en combate, agrega +1 a su característica de Fuerza hasta el final de la fase.</description>
+    </rule>
+    <rule id="48cd-32a7-6115-19b3" name="Preferred Enemy" hidden="false">
+      <description>Esta regla a menudo se presenta como Enemigo Preferido (X) donde X identifica un tipo específico de enemigo. Si la regla especial no especifica un tipo de enemigo, entonces todo el mundo es un Enemigo Preferido de la unidad. Una unidad que contiene al menos una miniatura con esta regla especial repite las tiradas fallidas para Impactar y Herir de 1 si ataca a su Enemigo Preferido. Esto se aplica tanto a los disparos como a los ataques cuerpo a cuerpo.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="1287-6659-b04f-fe37" name="Blight Grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -21233,6 +21249,11 @@ Can never be used to attack units within the firing unit’s Engagement Range. (
     <profile id="24eb-ecbf-94fe-aa91" name="Feel No Pain" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Cuando una miniatura con esta regla especial sufre una Herida sin salvar, puede realizar una tirada especial de Feel no Pain para evitar ser herido. (No puede ser utilizado contra heridas mortales), se debe tirar 1D6 a 5+ se ignora la herida.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="12e7-1e38-0187-f879" name="Murderous Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si se obtiene un 6+ en la tirada para herir, infringe 1 mortal adicional al daño.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
