@@ -14834,7 +14834,7 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
         </profile>
         <profile id="1b1f-50e0-222c-148f" name="Death of the Warlord" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Death of the Warlord: If your Warlord is removed as a casualty during your game, any abilities or special rules granted by their Warlord Trait are immediately lost. If the Warlord Trait in question conferred a special rule that allows an unusual method of deployment from Reserves (such as conferring the Outflank ability on certain units), that special rule is immediately lost and the affected units must instead deploy from Reserves in the normal fashion.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Death of the Warlord: If your Warlord is removed as a casualty during your game, any abilities or special rules granted by their Warlord Trait are immediately lost.  Además entrega 1 punto de vitoria adicional al contrincante y durante esa ronda de batalla las unidades enemigas a 1&quot; pasan automáticamente los chequeos de moral.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14861,6 +14861,11 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
           <infoLinks>
             <infoLink id="ac9e-6bce-87ed-0c38" name="Master of the Legion " hidden="false" targetId="9582-203e-a98b-411f" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -14903,7 +14908,7 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
         </profile>
         <profile id="473d-bf8c-a938-546a" name="Sire of the Emperor&apos;s Children" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Todas las unidades &quot;Emperor&apos;s Children&quot; que se encuentren a 6&quot; de esta miniatura pasan automáticamente chequeos de moral. Adicionalmente ganan la regla especial &quot;Crusader&quot;</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Fulgrin gana la regla especial &quot;Crusader&quot;. Todas las unidades &quot;Emperor&apos;s Children&quot;  pueden usar el liderazgo de Flugrim, adicionalmente ganan la regla especial &quot;Crusader&quot;.</characteristic>
           </characteristics>
         </profile>
         <profile id="9242-1bff-28ae-c1cc" name="The Gilded Panoply" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -14923,7 +14928,7 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0bb4-bb4e-5f66-776f" name="Crusader" hidden="false" targetId="8806-e485-e1f7-0b1d" type="profile"/>
+        <infoLink id="1f51-fa55-a06c-dcf3" name="Crusader" hidden="false" targetId="d09c-9063-9fa8-9ee9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="19b8-b7da-0927-8ffb" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -14945,7 +14950,7 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
             <profile id="2ce9-f2e1-28f6-f255" name="Firebrand" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">15&quot;</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistola 2</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Asalto 2</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
@@ -15041,15 +15046,9 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
           </modifiers>
         </entryLink>
         <entryLink id="6af4-bd75-d268-d8c8" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="2d3b-b544-ad49-fb75" value="1.0"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8ea-208a-3d8d-cea0" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="803e-370a-33a6-de5e" name="Master of the Legion " hidden="false" targetId="9582-203e-a98b-411f" type="profile"/>
-          </infoLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -15421,6 +15420,11 @@ Regla: Two-Handed</characteristic>
             <infoLink id="ef52-b049-d223-ca79" name="Feel No Pain" hidden="false" targetId="b8b7-db83-e263-a19c" type="rule"/>
             <infoLink id="ff67-28db-548b-e3a2" name="Furious Charge" hidden="false" targetId="950f-164e-d8b5-db4a" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -20934,6 +20938,9 @@ Can never be used to attack units within the firing unit’s Engagement Range. (
     </rule>
     <rule id="48cd-32a7-6115-19b3" name="Preferred Enemy" hidden="false">
       <description>Esta regla a menudo se presenta como Enemigo Preferido (X) donde X identifica un tipo específico de enemigo. Si la regla especial no especifica un tipo de enemigo, entonces todo el mundo es un Enemigo Preferido de la unidad. Una unidad que contiene al menos una miniatura con esta regla especial repite las tiradas fallidas para Impactar y Herir de 1 si ataca a su Enemigo Preferido. Esto se aplica tanto a los disparos como a los ataques cuerpo a cuerpo.</description>
+    </rule>
+    <rule id="d09c-9063-9fa8-9ee9" name="Crusader" hidden="false">
+      <description>Tira 1 dado extra para avanzar y se queda con el más alto. Adicionalmente agrega 1D3&quot; a la consolidación en combate.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
