@@ -15107,7 +15107,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
         </profile>
         <profile id="88af-3cb9-a0a2-5faf" name="Cameleoline" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">-1 Hit contra todo tipo de ataques.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">-1 Hit contra todo tipo de ataques a distancia o cuerpo a cuerpo</characteristic>
           </characteristics>
         </profile>
         <profile id="6e46-238c-5ca4-4517" name="Cognis-signum" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15268,7 +15268,7 @@ Regla: Two-Handed</characteristic>
             </profile>
             <profile id="e5cf-1a08-78c1-e990" name="One of Many" publicationId="d29c-27bd-74fc-57c6" page="95" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si Alpharius es el señor de la guerra, antes del inicio del primer turno, puede elegir 2 unidades que se encuentren desplegadas en mesa y dejarlas en reserva estratégica.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si Alpharius es el señor de la guerra, antes del inicio del primer turno, puede elegir quedarse él y una unidad que se encuentren desplegadas en mesa y dejarlas en reserva estratégica.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15362,8 +15362,8 @@ Regla: Two-Handed</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Armourbane, Murderous Strike</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D3</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Armourbane, Murderous Strike, Each time the bearer fights, it makes 1 additional attack with Gorechild with the profile F &lt;User&gt;, AP -3, Damage 1D6</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -20890,7 +20890,7 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
       <description>In the Fight phase, when this model is chosen to fight with for the first time that phase, roll one D6. On a 1, the model suffers 1 mortal wound and cannot use this weapon further that phase. On a 2+ the model can fight with the weapon as normal.</description>
     </rule>
     <rule id="df4a-ac9f-8461-ada5" name="Armourbane" hidden="false">
-      <description>Al inicio del turno tira 1D3 por cada arma que posea esta regla, el resultado de este dado se la agrega al factor de penetración del arma. Además si esa tirada es de 4+ el arma ignora las salvaciones invulnerables.</description>
+      <description>Al inicio del turno tira 1D3 por cada arma que posea esta regla, el resultado de este dado se la agrega al factor de penetración del arma. Si en esa tirada sale un 6 ingnora salvaciones invulnerables.</description>
     </rule>
     <rule id="358f-ebc5-6c93-c82a" name="Murderous Strike" hidden="false">
       <description>Si se obtiene un 6+ en la tirada para herir, infringe 1 mortal adicional al daño.</description>
@@ -20937,7 +20937,7 @@ Can never be used to attack units within the firing unit’s Engagement Range. (
       <description>En un turno en el que una miniatura con esta regla especial carga en combate, agrega +1 a su característica de Fuerza hasta el final de la fase.</description>
     </rule>
     <rule id="48cd-32a7-6115-19b3" name="Preferred Enemy" hidden="false">
-      <description>Esta regla a menudo se presenta como Enemigo Preferido (X) donde X identifica un tipo específico de enemigo. Si la regla especial no especifica un tipo de enemigo, entonces todo el mundo es un Enemigo Preferido de la unidad. Una unidad que contiene al menos una miniatura con esta regla especial repite las tiradas fallidas para Impactar y Herir de 1 si ataca a su Enemigo Preferido. Esto se aplica tanto a los disparos como a los ataques cuerpo a cuerpo.</description>
+      <description>Esta regla a menudo se presenta como Enemigo Preferido (X) donde X identifica un tipo específico de enemigo. Si la regla especial no especifica un tipo de enemigo, entonces todo el mundo es un Enemigo Preferido de la unidad. Una unidad que contiene al menos una miniatura con esta regla especial repite las tiradas fallidas para Impactar y Herir de 1 en la fase de disparo, si ataca a su Enemigo Preferido.</description>
     </rule>
     <rule id="d09c-9063-9fa8-9ee9" name="Crusader" hidden="false">
       <description>Tira 1 dado extra para avanzar y se queda con el más alto. Adicionalmente agrega 1D3&quot; a la consolidación en combate.</description>
@@ -21240,7 +21240,7 @@ Can never be used to attack units within the firing unit’s Engagement Range. (
     </profile>
     <profile id="8806-e485-e1f7-0b1d" name="Crusader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Tira 1 dado extra para avanzar y se queda con el más alto. Adicionalmente agrega 1D3&quot; a la consolidación en combate.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Tira 1 dado extra para avanzar y se queda con el más alto.</characteristic>
       </characteristics>
     </profile>
     <profile id="ef32-3bca-edab-c3ad" name="Fear" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -21253,7 +21253,7 @@ Can never be used to attack units within the firing unit’s Engagement Range. (
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Las unidades que contienen una o más miniaturas con esta regla especial pasan automáticamente los chequeos de Moral y de Miedo.</characteristic>
       </characteristics>
     </profile>
-    <profile id="24eb-ecbf-94fe-aa91" name="Feel No Pain" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="24eb-ecbf-94fe-aa91" name="Feel No Pain (6)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Cuando una miniatura con esta regla especial sufre una Herida sin salvar, puede realizar una tirada especial de Feel no Pain para evitar ser herido. (No puede ser utilizado contra heridas mortales), se debe tirar 1D6 a 5+ se ignora la herida.</characteristic>
       </characteristics>
