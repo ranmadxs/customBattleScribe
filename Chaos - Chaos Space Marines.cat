@@ -20897,6 +20897,59 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
     <rule id="30c9-db92-9a1f-243a" name="Daemon Weapon" hidden="false">
       <description>In the Fight phase, when this model is chosen to fight with for the first time that phase, roll one D6. On a 1, the model suffers 1 mortal wound and cannot use this weapon further that phase. On a 2+ the model can fight with the weapon as normal.</description>
     </rule>
+    <rule id="df4a-ac9f-8461-ada5" name="Armourbane" hidden="false">
+      <description>Al inicio de la fase de combate tira 1D3 por cada arma que posea esta regla, el resultado de este dado se la agrega al factor de penetración del arma. Si en esa tirada sale un 6 no se pueden efectuar tiradas por salvación invulnerable contra heridas efectuadas por esta arma durante toda la fase.</description>
+    </rule>
+    <rule id="358f-ebc5-6c93-c82a" name="Murderous Strike" hidden="false">
+      <description>Si se obtiene un 6+ en la tirada para herir, infringe 1 mortal adicional al daño.</description>
+    </rule>
+    <rule id="caf9-742e-8fba-7141" name="Instant Death" hidden="false">
+      <description>Si una miniatura sufre una herida sin salvar por un arma que tenga esta regla, si no muere tira 1D6; con 4+ sufre 1 herida mortal, y si esa miniatura no es destruida sigue tirando un 1D6, aumentando el resultado requerido para causar una herida mortal en 1 cada vez, hasta que la miniatura de la unidad enemiga por la que se tira sea destruida o la tirada falle.</description>
+    </rule>
+    <rule id="0e77-4530-8c50-5785" name="Blast" hidden="false">
+      <description>Blast Weapons: Minimum three attacks against units with 6+ models. Always make maximum number of attacks against units with 11+ models.
+Can never be used to attack units within the firing unit’s Engagement Range. (Zona de amenaza)</description>
+    </rule>
+    <rule id="94fd-bb2e-cba3-03bf" name="Master-crafted" hidden="false">
+      <description>Weapons with the Master-crafted special rule allow the bearer to re-roll one failed roll To Wound per turn with that weapon.</description>
+    </rule>
+    <rule id="eeec-30b8-a87d-4527" name="Hammer of Wrath" hidden="false">
+      <description>Si una miniatura con esta regla especial lanza una granada en este turno y finaliza su movimiento en rango de amenaza de una miniatura enemiga, inmediatamente realiza un Ataque adicional por cada unidad a 3&quot; del portador, que impacta automáticamente y se resuelve con la Fuerza no modificada del portador con AP -1, daño 1D3</description>
+    </rule>
+    <rule id="4590-e344-1657-cc9c" name="Deflagrate" hidden="false">
+      <description>Después de que se hayan resuelto los ataques normales de esta arma, cuenta el número de heridas no salvadas causadas a la unidad objetivo. Resuelve inmediatamente una cantidad de impactos automáticos adicionales en la misma unidad usando el perfil del arma igual a la cantidad de heridas no salvadas; estas se pueden salvar normalmente. Las miniaturas de la unidad objetivo deben estar todavía dentro del alcance para que estos impactos adicionales surtan efecto. Estos golpes adicionales no infligen más golpes por sí mismos.</description>
+    </rule>
+    <rule id="c9d9-5293-041c-be3f" name="Shred" hidden="false">
+      <description>La arma con esta regla repite las tiradas para herir.</description>
+    </rule>
+    <rule id="aa26-e1c5-47c9-07ee" name="Murderous Strike Powered" hidden="false">
+      <description>Las tiradas para herir de 5+ con esta arma causan una herida mortal adicional al daño.</description>
+    </rule>
+    <rule id="35ff-d0bc-f9b7-03c2" name="Specialist Weapon" hidden="false">
+      <description>Each time the bearer fights, it makes 1 additional attack with this weapon.</description>
+    </rule>
+    <rule id="b08e-3359-855c-c15b" name="Two-Handed" hidden="false">
+      <description>En el turno en que esta miniatura cargue,  se reciba una carga o se efectúe una intervención heróica agrega +1 a la fuerza cuando se ataque con esta arma.</description>
+    </rule>
+    <rule id="505d-7938-7c2b-e300" name="Rending" hidden="false">
+      <description>Por cada tirada de 6 para Herir, el objetivo sufre automáticamente una Herida, adicional y si el ataque es contra vehículos esta herdia se resuelve con 1D3 de daños adicional al arma.
+</description>
+    </rule>
+    <rule id="5f5a-3b75-2693-47db" name="Gets Hot" hidden="false">
+      <description>Al disparar un arma que se calienta, tira para impactar como de costumbre. Por cada tirada de 1, sin modificar, para impactar, la miniatura que dispara sufre inmediatamente una Herida (se pueden realizar salvaciones con armadura o invulnerables).</description>
+    </rule>
+    <rule id="b8b7-db83-e263-a19c" name="Feel No Pain" hidden="false">
+      <description>Cuando una miniatura con esta regla especial sufre una Herida sin salvar, puede realizar una tirada especial de Feel no Pain para evitar ser herido. (No puede ser utilizado contra heridas mortales), se debe tirar 1D6 a 5+ se ignora la herida.</description>
+    </rule>
+    <rule id="950f-164e-d8b5-db4a" name="Furious Charge" hidden="false">
+      <description>Agrega +1 a la tirada de carga,  y si esta es exitosa, agrega +1 a su característica de Fuerza hasta el final de la fase.</description>
+    </rule>
+    <rule id="48cd-32a7-6115-19b3" name="Preferred Enemy" hidden="false">
+      <description>Esta regla a menudo se presenta como Enemigo Preferido (X) donde X identifica un tipo específico de enemigo. Si la regla especial no especifica un tipo de enemigo, entonces todo el mundo es un Enemigo Preferido de la unidad. Una unidad que contiene al menos una miniatura con esta regla especial repite las tiradas fallidas para Impactar y Herir de 1 en la fase de disparo y de 1 para impactar en la fase de combate, si ataca a su Enemigo Preferido.</description>
+    </rule>
+    <rule id="d09c-9063-9fa8-9ee9" name="Crusader" hidden="false">
+      <description>Tira 1 dado extra para avanzar y se queda con el más alto. Adicionalmente agrega 1D3&quot; a la consolidación en combate.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="1287-6659-b04f-fe37" name="Blight Grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -21186,6 +21239,36 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
     <profile id="a6a1-5807-9079-918d" name="Aura of Dark Majesty" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ invulnerable save. Each time an attack is made against this model, subtract 1 from that attack&apos;s hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9582-203e-a98b-411f" name="Master of the Legion " hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si tu ejército es &quot;Battle-forged&quot;, recibes 1 Command Point adicional si el Primarca es tu señor de la guerra. Adicionalmente puede elejir 1 rasgo &lt;Legion&gt; del señor de la guerra. Si ya tiene un rasgo puede elegir uno extra.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8806-e485-e1f7-0b1d" name="Crusader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Tira 1 dado extra para avanzar y se queda con el más alto.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ef32-3bca-edab-c3ad" name="Fear" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Al comienzo de cada subfase de Combate, todas las unidades en &quot;rango de amenaza&quot; sufren la regla especial Miedo. Deben realizar una prueba de Liderazgo (llamada prueba de Miedo) antes de recibir algún golpe. Si se pasa la prueba, todo está bien y no hay ningún efecto. Si la prueba falla, la unidad sucumbe al miedo: todas las miniaturas de la unidad tienen su Habilidad de armas reducida a 1 durante el resto de esa subfase de Lucha. Tenga en cuenta que un modelo que causa Miedo no es en sí mismo inmune al Miedo, y aún necesitará realizar una prueba de Miedo si se encuentra en rango de amenaza de cualquier miniatura enemiga que cause Miedo.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="528f-b338-276c-d850" name="Fearless" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Las unidades que contienen una o más miniaturas con esta regla especial pasan automáticamente los chequeos de Moral y de Miedo.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="24eb-ecbf-94fe-aa91" name="Feel No Pain (6)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Cuando una miniatura con esta regla especial sufre una Herida sin salvar, puede realizar una tirada especial de Feel no Pain para evitar ser herido. (No puede ser utilizado contra heridas mortales), se debe tirar 1D6 a 5+ se ignora la herida.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="12e7-1e38-0187-f879" name="Murderous Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si se obtiene un 6+ en la tirada para herir, infringe 1 mortal adicional al daño.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
