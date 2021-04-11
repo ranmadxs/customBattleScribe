@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e0a4-2172-4397-e39a" name="Aeldari - Drukhari" revision="111" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WindstormSCR @FarseerV" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="181" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e0a4-2172-4397-e39a" name="Aeldari - Drukhari" revision="113" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WindstormSCR @FarseerV" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="181" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e0a4-2172-pubN65537" name="Codex: Drukhari"/>
     <publication id="d36f-0c87-284a-7055" name="Warhammer Legends - Drukhari"/>
@@ -385,9 +385,15 @@
             <conditionGroup type="or">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebb3-4f37-6e57-7a8e" type="atLeast"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d75e-64da-9773-ce45" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2538-0722-fa84-1db3" type="lessThan"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d75e-64da-9773-ce45" type="lessThan"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2538-0722-fa84-1db3" type="lessThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -1821,17 +1827,17 @@
     </selectionEntry>
     <selectionEntry id="4da6-8b2a-acaf-d1fe" name="Reavers" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="e356-c769-5920-6e14" value="7.0">
+        <modifier type="set" field="e356-c769-5920-6e14" value="6.0">
           <conditions>
             <condition field="selections" scope="4da6-8b2a-acaf-d1fe" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1556-f1bb-147a-f555" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="e356-c769-5920-6e14" value="10.0">
+        <modifier type="set" field="e356-c769-5920-6e14" value="9.0">
           <conditions>
             <condition field="selections" scope="4da6-8b2a-acaf-d1fe" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1556-f1bb-147a-f555" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="e356-c769-5920-6e14" value="14.0">
+        <modifier type="set" field="e356-c769-5920-6e14" value="12.0">
           <conditions>
             <condition field="selections" scope="4da6-8b2a-acaf-d1fe" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1556-f1bb-147a-f555" type="greaterThan"/>
           </conditions>
@@ -2459,7 +2465,6 @@
             <selectionEntry id="0241-83d9-31ab-fe34" name="Wracks" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e97-a1ae-43a6-8ed2" type="min"/>
-                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c6e7-e7d6-f2bc-37f8" type="max"/>
               </constraints>
               <profiles>
                 <profile id="ded5-0d9c-7817-c52c" name="Wracks" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -3511,12 +3516,12 @@
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a739-bf2e-3a73-e599" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fa5-9569-a481-fdad" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="4018-06d0-ef59-2105" value="1.0">
           <repeats>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a739-bf2e-3a73-e599" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fa5-9569-a481-fdad" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -4463,12 +4468,12 @@
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="25b6-4e38-2ad0-6aac" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e199-a6b3-c954-bbbe" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="1a16-67cf-24a9-baab" value="1.0">
           <repeats>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="25b6-4e38-2ad0-6aac" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e199-a6b3-c954-bbbe" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -4768,6 +4773,7 @@
         <categoryLink id="e62f-addb-b3f6-5713" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="049e-0f79-79af-2ce5" name="Faction: Wych Cult of Strife" hidden="false" targetId="859a-9acf-049d-dcd9" primary="false"/>
         <categoryLink id="1372-cc84-df69-868a" name="Succubus" hidden="false" targetId="3583-0c0b-f37a-5faa" primary="false"/>
+        <categoryLink id="a11a-0d21-1f2b-d638" name="Master Succubus" hidden="false" targetId="3fa5-9569-a481-fdad" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6f86-0ee7-40e1-0b8b" name="Lelith&apos;s Blades" hidden="false" collective="false" import="true" type="upgrade">
@@ -5466,6 +5472,7 @@
         <categoryLink id="244a-4dc1-f741-bbdc" name="New CategoryLink" hidden="false" targetId="8fca-4ed9-4326-8a23" primary="false"/>
         <categoryLink id="e3df-5020-86bf-822f" name="New CategoryLink" hidden="false" targetId="be89-e5a2-cf0e-c91c" primary="false"/>
         <categoryLink id="5830-329f-cb78-1800" name="Faction: Prophets of Flesh" hidden="false" targetId="43ef-6837-7167-e8ec" primary="false"/>
+        <categoryLink id="de3c-771e-abc5-56e8" name="Master Haemonculus" hidden="false" targetId="19a9-184d-4492-40ce" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d733-0acf-869a-22a6" name="Casket of Flensing" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -7450,12 +7457,12 @@
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="47c6-c058-daf7-1bc2" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="19a9-184d-4492-40ce" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="87c3-f90b-3398-3e57" value="1.0">
           <repeats>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="47c6-c058-daf7-1bc2" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="19a9-184d-4492-40ce" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -7807,7 +7814,7 @@ Once per phase, the first time a saving throw is failed for this unit, the damag
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2538-0722-fa84-1db3" type="lessThan"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2538-0722-fa84-1db3" type="lessThan"/>
           </conditions>
         </modifier>
       </modifiers>
