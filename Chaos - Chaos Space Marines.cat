@@ -1319,6 +1319,20 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink id="3227-90c5-b46a-7546" name="Horus" hidden="false" collective="false" import="true" targetId="4865-014a-8ac0-7761" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="37cd-2830-725b-a321" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7049-f86b-e228-bbaf" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="77fd-f3de-18b4-fe06" name="Despoilers of the Galaxy" hidden="true">
@@ -15346,6 +15360,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
         <categoryLink id="6dbb-7a60-1d04-3596" name="Faction: Heretic Astartes" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
         <categoryLink id="cab2-aa0d-d445-4228" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="990e-740c-f98d-1b95" name="Faction: Khorne" hidden="false" targetId="dfc5-aa04-9546-1b4c" primary="false"/>
+        <categoryLink id="c476-f163-545b-9e92" name="Primarch" hidden="false" targetId="298f-d173-2159-919f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cf51-02d9-79d6-d013" name="Gorefather &amp; Gorechild" hidden="false" collective="false" import="true" type="upgrade">
@@ -15454,6 +15469,205 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4865-014a-8ac0-7761" name="Horus" publicationId="d29c-27bd-74fc-57c6" page="26" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="bde2-d3c1-9514-a2b8" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7049-f86b-e228-bbaf" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="37cd-2830-725b-a321" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3339-3bfa-1170-6c5c" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bde2-d3c1-9514-a2b8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9d51-fe78-ef9c-5064" name="Horus the Warmaster" publicationId="d29c-27bd-74fc-57c6" page="26" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">8</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">11</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8588-92a7-32af-f74e" name="The Serpent&apos;s Scales" publicationId="d29c-27bd-74fc-57c6" page="27" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Confers 2+ save and a 3++ Invulnerable save. And if a psychic power targets this model, roll a D6 if it rolls 4+, deny it.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="25a7-0754-bae2-203f" name="Weapon Mastery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll hit rolls for attacks made by models in friendly Black Legion INFANTRY, BIKE and CHARACTER units whilst their unit is within 6&quot; of this model. and Re-roll wound rolls of 1 for attacks within 6&quot; of this model. You can also can re-roll hit rolls of 1 for attacks made by models in friendly CHAOS units within 12&quot; of this model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="266e-6477-2c9f-9b93" name="Teleportation Matrix" page="0" hidden="false">
+          <description>Once per battle, at the start of your Movement phase, you can remove this unit and 1 Terminator unit from the battlefield and the Warmaster, in the Reinforcements step of your next Movement phase, you can set this unit back up on the battlefield, anywhere wholly within your own deployment zone and more than 6&quot; from any enemy models, or anywhere within 3&quot; of a friendly Black Legions model and more than 6&quot; from any enemy models.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="932e-1eb9-27dc-741f" name="Very Bulky" hidden="false" targetId="b5e7-2295-04c2-26db" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="814a-111c-f772-ceca" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+        <categoryLink id="d2e7-93e0-ab6b-3d57" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="fc2a-f437-c1b9-1bc0" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="806e-c6ce-bde4-a9e7" name="Faction: Heretic Astartes" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
+        <categoryLink id="d3fd-38f1-d99e-c2e9" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="dd29-b948-7a09-1284" name="Faction: Khorne" hidden="false" targetId="dfc5-aa04-9546-1b4c" primary="false"/>
+        <categoryLink id="2549-2312-a575-e5c0" name="Faction: Black Legion" hidden="false" targetId="1f29-4695-dfe7-e893" primary="false"/>
+        <categoryLink id="c570-cd93-fb8e-f708" name="Primarch" hidden="false" targetId="298f-d173-2159-919f" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4c6d-eff4-79c1-4ef6" name="The Warmaster&apos;s Talon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="345f-60cb-112b-c0fb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ed0-4001-7c97-0cdd" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0c31-1f07-b432-6b73" name="The Warmaster&apos;s Talon (Claw)" publicationId="d29c-27bd-74fc-57c6" page="27" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Disabling Strike, When the bearer fights, it makes 2 additional attack with this weapon.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c407-5972-427e-ccb5" name="The Warmaster&apos;s Talon (Bolter)" publicationId="d29c-27bd-74fc-57c6" page="27" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Asault 3</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Twin-linked</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="37f9-f2ac-65ec-097a" name="Twin-linked" hidden="false" targetId="fa66-1eb7-bf9e-5618" type="rule"/>
+            <infoLink id="7361-f279-f92e-eb41" name="Disabling Strike" hidden="false" targetId="a54f-7a2a-e07a-adc4" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5bb5-8f80-d0c9-bacd" name="Point of the Spear" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1743-6cb5-fa31-8516" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35d6-4056-4d16-9dcd" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0b56-98a5-2494-4da7" name="Point of the Spear" publicationId="d29c-27bd-74fc-57c6" page="27" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Unlimited</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D3</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the bearer.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0db0-8c71-c008-b448" name="Sire of the Sons of Horus" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4690-5543-498f-7ba2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bad-1962-adf2-280c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7225-75da-7362-3fef" name="Sire of the Sons of Horus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Horus has Good of Battle special rules. In addition, when fighting a unit or character with WS 4 or less, he gains D3 attacks. If he (and any terminator-armoured) are in reserve the player may choose what turn he arrives instead of normal rules.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="587d-33f5-f5f5-cf9f" name="God of Battle" page="0" hidden="false">
+              <description>- All models with Black Legion gain 1 Ld to a max of 10.
+- Esta miniatura siempre ataca primero en la fase de combate.
+- Al inicio de la batalla, depués que se ha desplegado pero antes del primer turno puede elegir una unidad que no sea Horus y dejarla en reserva estratégica.
+
+</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e2d2-5c9b-0969-d3ef" name="Worldbreaker" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ab1-ddf2-5e34-271f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a2c-58bb-484c-addf" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8f85-84b4-3d22-cb79" name="Worldbreaker" publicationId="d29c-27bd-74fc-57c6" page="27" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D6</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Armourbane. When a model attacks with this weapon, you must subtract 1 from the hit roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="500f-325d-7a2e-df58" name="Armourbane" hidden="false" targetId="df4a-ac9f-8461-ada5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="fe0c-dd00-b957-e90b" name="Primarch" hidden="false" collective="false" import="true" targetId="13ef-ecc8-a315-9b88" type="selectionEntry"/>
+        <entryLink id="9332-4713-9d51-dceb" name="Warlord Traits (Black Legion)" hidden="false" collective="false" import="true" targetId="d93d-deaf-d76d-c442" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="feae-8926-f679-9e2f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="2043-abf4-ebae-e106" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b18-f9e3-a0f4-2eb9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ead0-b34a-e0b9-14b2" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="127.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -20898,7 +21112,7 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
       <description>In the Fight phase, when this model is chosen to fight with for the first time that phase, roll one D6. On a 1, the model suffers 1 mortal wound and cannot use this weapon further that phase. On a 2+ the model can fight with the weapon as normal.</description>
     </rule>
     <rule id="df4a-ac9f-8461-ada5" name="Armourbane" hidden="false">
-      <description>Al inicio de la fase de combate tira 1D3 por cada arma que posea esta regla, el resultado de este dado se la agrega al factor de penetración del arma. Si en esa tirada sale un 6 no se pueden efectuar tiradas por salvación invulnerable contra heridas efectuadas por esta arma durante toda la fase.</description>
+      <description>Al inicio de la fase de combate tira 1D3 por cada arma que posea esta regla, el resultado de este dado se la agrega al factor de penetración del arma. Si en esa tirada sale un 5+ no se pueden efectuar tiradas por salvación invulnerable contra heridas efectuadas por esta arma durante toda la fase.</description>
     </rule>
     <rule id="358f-ebc5-6c93-c82a" name="Murderous Strike" hidden="false">
       <description>Si se obtiene un 6+ en la tirada para herir, infringe 1 mortal adicional al daño.</description>
@@ -20949,6 +21163,15 @@ Can never be used to attack units within the firing unit’s Engagement Range. (
     </rule>
     <rule id="d09c-9063-9fa8-9ee9" name="Crusader" hidden="false">
       <description>Tira 1 dado extra para avanzar y se queda con el más alto. Adicionalmente agrega 1D3&quot; a la consolidación en combate.</description>
+    </rule>
+    <rule id="fa66-1eb7-bf9e-5618" name="Twin-linked" hidden="false">
+      <description>Se puede atacar una seguna vez con esta arma.</description>
+    </rule>
+    <rule id="a54f-7a2a-e07a-adc4" name="Disabling Strike" hidden="false">
+      <description>Any model that is wounded but not killed by The Warmasters Talon in an assault loses -1 WS and -1 Str for the remainder of the game. This is cumulative.</description>
+    </rule>
+    <rule id="b5e7-2295-04c2-26db" name="Very Bulky" hidden="false">
+      <description>Esta unidad se puede subir a cualquier transporte &quot;Chaos&quot; pero cuenta como 4 miniaturas para el conteo.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
