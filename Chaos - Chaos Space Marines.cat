@@ -15595,6 +15595,9 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
           </costs>
         </selectionEntry>
         <selectionEntry id="0db0-8c71-c008-b448" name="Sire of the Sons of Horus" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="2d3b-b544-ad49-fb75" value="1.0"/>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4690-5543-498f-7ba2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bad-1962-adf2-280c" type="max"/>
@@ -15611,6 +15614,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
               <description>- All models with Black Legion gain 1 Ld to a max of 10.
 - Esta miniatura siempre ataca primero en la fase de combate.
 - Al inicio de la batalla, depués que se ha desplegado pero antes del primer turno puede elegir una unidad que no sea Horus y dejarla en reserva estratégica.
+- Agrega 1CP extra.
 
 </description>
             </rule>
@@ -15648,6 +15652,88 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a9bc-a3fb-8f29-2419" name="Retinue" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="b803-e753-3c5c-3dfe" name="Terminator Command Squad" publicationId="cb54-c035-pubN125652" page="137" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="c1d8-08e7-6993-326f" name="Terminator Commander" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="876b-9380-6af7-f2e0" name="Bodyguard" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a friendly CHAOS INFANTRY CHARACTER loses a wound whilst they are within 3&quot; of any models with this ability; on a 3+ the Character does not lose a wound but one model with this ability suffers a mortal wound.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="4d64-db80-c120-f7dc" name="Remorseless" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a Combat Attrition test is taken for this unit, ignore any or all modifiers.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="9adb-18ee-c65d-68cb" name="Command Squad" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first time this unit is set up (applies only when it is not in strategic reserve), all of its models must be placed within 3&quot; of Warmaster Horus. From that point onwards, operates independently and is treated as a separate unit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="6cb1-2cf4-3e21-9174" name="Death to the False Emperor" hidden="false" targetId="37a4-1d84-4ef0-c4f6" type="profile"/>
+                <infoLink id="65b5-3c9a-7f57-ded6" name="Teleport Strike" hidden="false" targetId="d4d3-93d9-8313-56c8" type="profile"/>
+                <infoLink id="ff6f-61e2-9696-5247" name="Terminator Armour" hidden="false" targetId="aa2e-f0e5-04d3-aae3" type="profile"/>
+                <infoLink id="096b-5ea8-9090-5220" name="Special Abilities" hidden="false" targetId="9bbf-a7df-8d09-b667" type="infoGroup"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="c48b-9531-5348-4f6a" name="New CategoryLink" hidden="false" targetId="b2b6-8e4a-9c74-cc37" primary="false"/>
+                <categoryLink id="6af2-1bf3-30a8-ba5b" name="New CategoryLink" hidden="false" targetId="a61a-08c8-c7f7-9f78" primary="false"/>
+                <categoryLink id="4ba8-023d-560d-3c59" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+                <categoryLink id="e97b-e5e8-9b91-2984" name="Faction: Heretic Astartes" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
+                <categoryLink id="76ea-f902-1c70-ac3c" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+                <categoryLink id="9874-52fd-1da4-cf4f" name="Terminator" hidden="false" targetId="36b8-cf23-7648-ece9" primary="false"/>
+              </categoryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="cf63-ac44-5d4d-94a5" name="Terminator" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bf9-fd42-9acf-d4a3" type="max"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e80a-fade-1abb-513d" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="a31a-efd2-2f36-80e0" name="Terminator" hidden="false" collective="false" import="true" type="model">
+                      <entryLinks>
+                        <entryLink id="75b0-d9c9-1363-8182" name="Terminator Command Weapon Options" hidden="false" collective="false" import="true" targetId="f230-2162-96d3-844b" type="selectionEntryGroup"/>
+                      </entryLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="29.0"/>
+                        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="58c2-3843-efaf-4e87" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+                <entryLink id="54a0-adf6-c63a-29b0" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+                <entryLink id="6e1d-816a-dc06-b32f" name="Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="fe0c-dd00-b957-e90b" name="Primarch" hidden="false" collective="false" import="true" targetId="13ef-ecc8-a315-9b88" type="selectionEntry"/>
         <entryLink id="9332-4713-9d51-dceb" name="Warlord Traits (Black Legion)" hidden="false" collective="false" import="true" targetId="d93d-deaf-d76d-c442" type="selectionEntryGroup">
@@ -15661,7 +15747,6 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
         </entryLink>
         <entryLink id="2043-abf4-ebae-e106" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b18-f9e3-a0f4-2eb9" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ead0-b34a-e0b9-14b2" type="max"/>
           </constraints>
         </entryLink>
@@ -21087,6 +21172,61 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f230-2162-96d3-844b" name="Terminator Command Weapon Options" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7130-27fd-098c-b1f1" type="max"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb15-05b3-e28a-e915" type="min"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="77ca-729c-83b3-529b" name="Combi-weapons" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="753d-0120-8b08-9d35" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2607-d554-732e-c0b0" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="753d-0120-8b08-9d35" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a07d-320c-c6a7-ff4c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="888a-4639-0243-383b" name="Combi-claw" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="aede-f28d-5ec9-b260" name="Boltgun" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                <infoLink id="c2fa-f5e9-c974-9c44" name="Lightning claw" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="cd04-9cf9-45e4-3042" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e75f-5252-23c1-fc31" name="Combi-melta" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1c88-9b0d-9be2-efd4" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5e11-b756-c4c1-5bad" name="Combi-bolter" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="06d8-294b-f982-0e49" name="Terminator Melee Weapons" hidden="false" collective="false" import="true" targetId="2607-d554-732e-c0b0" type="selectionEntryGroup"/>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
