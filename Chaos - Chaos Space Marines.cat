@@ -1333,6 +1333,20 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink id="88c1-4e57-bd3d-ec29" name="Konrad Curze" hidden="false" collective="false" import="true" targetId="6a4b-f3bc-03f4-36a8" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01f7-d7f1-be88-b861" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7049-f86b-e228-bbaf" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="77fd-f3de-18b4-fe06" name="Despoilers of the Galaxy" hidden="true">
@@ -15753,6 +15767,158 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="127.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a4b-f3bc-03f4-36a8" name="Konrad Curze" publicationId="d29c-27bd-74fc-57c6" page="36" hidden="false" collective="false" import="true" type="model">
+      <comment>The Illuminator</comment>
+      <modifiers>
+        <modifier type="set" field="a3a3-686e-c842-b0e7" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7049-f86b-e228-bbaf" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01f7-d7f1-be88-b861" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e9b7-7905-9d3a-94ca" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3a3-686e-c842-b0e7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b04a-856f-3d6e-efd6" name="Konrad Curze" publicationId="d29c-27bd-74fc-57c6" page="36" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="22a4-56ee-9f24-db54" name="Sire of the Night Lords" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Konrad Curze has Night Vision and Acute Senses and may always elect to have Night Fighting for the first game turn. All units with Legiones Astartes (Night Lords) gain Fear and impose a -1 penalty to enemy units taking attrition checks at 6&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7674-39e8-b617-4e75" name="The Gilded Panoply" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Proporciona una salvación por armadura de 2+ y 5++ por salvación invulnerable.  Además, tira un dado cada vez que una miniatura con esta regla pierda una herida, a menos que esa herida se haya perdido como resultado de una herida mortal; con un 6, la herida no se pierde.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="30ff-3024-a304-db03" name="Sublime Swordsman" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si esta unidad hace un movimiento de carga, recibe una carga o realiza una intervención heroica, la salvación invulnerable aumenta a ++3 durante toda la fase de combate. Además, elige una unidad que se encuentre en zona de amenaza, y efectúa un chequeo de liderazgo, si gana 1D3 ataques adicionales, si todos sus ataques son dirigidos contra esta unidad.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ecdd-8386-ea78-66bf" name="Strategic Planning" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Al comienzo del juego, se puede elegir para Fulgrim un único rasgo de señor de la guerra de la tabla de rasgos de señor de la guerra de la Legión Emperor&apos;s Children.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a0f6-e338-b037-6d42" name="The Nightmare Mantle" publicationId="d29c-27bd-74fc-57c6" page="190" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Provides a 2+ armour save and a 4++ Invulnerable save, and grants the Hit and Run special rule (immediately after making an attack in the combat phase and before any other action he may move 6&quot; but more than 1&quot; from an enemy model). When the Night Haunter charges, he gains the Hamer of Wrath special rule (+1D3 additional attack).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1feb-0ff0-89aa-e130" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+        <categoryLink id="ada9-550c-4953-16a6" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="62e7-ff9b-ebd8-945d" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="49a2-5590-5b5b-dc86" name="Primarch" hidden="false" targetId="298f-d173-2159-919f" primary="false"/>
+        <categoryLink id="7d28-8da8-9909-3b28" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="8bd7-eec7-491b-d13d" name="Faction: Emperor&apos;s Children" hidden="false" targetId="649f-80f9-0d71-64c3" primary="false"/>
+        <categoryLink id="3690-6e66-0da3-dd39" name="Faction: Slaanesh" hidden="false" targetId="1da2-76db-f76f-6b6c" primary="false"/>
+        <categoryLink id="a76c-edd1-b07b-6439" name="Faction: Heretic Astartes" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ff1b-f4b9-db52-7c79" name="Frag Grenades" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9f0-2de0-b533-4adf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69c4-155f-7fdc-a035" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9739-9ead-e5d9-8e4c" name="Frag grenades" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6d09-c8d5-86ef-eb5c" name="Mercy &amp; Forgiveness" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32f5-952c-00ac-57c1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3130-1515-9831-f8a5" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="e763-aed2-f9e6-b07d" name="Mercy &amp; Forgiveness" publicationId="d29c-27bd-74fc-57c6" page="190" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D3</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Shred, Specialist Weapon, Murderous Strike, Paired (1 Attack)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dce6-7c10-dd25-58fc" name="Shred" hidden="false" targetId="c9d9-5293-041c-be3f" type="rule"/>
+            <infoLink id="ce48-2ccd-f9a0-3fff" name="Specialist Weapon" hidden="false" targetId="35ff-d0bc-f9b7-03c2" type="rule"/>
+            <infoLink id="341a-1ecf-426e-a517" name="Murderous Strike" hidden="false" targetId="358f-ebc5-6c93-c82a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0b79-ab23-2ba8-5eaf" name="The Widowmakers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0767-e8af-436c-0825" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2555-0283-4a5d-fc39" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2d7a-8b18-6a87-f498" name="Widowmaker Volley" publicationId="d29c-27bd-74fc-57c6" page="190" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">5</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Lethal Precision: Esta arma ignora cobertura, y con una tirada de 6+ para herir ignora salvación por armadura e invulnerable.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="91bc-b633-93a3-d679" name="Primarch" hidden="false" collective="false" import="true" targetId="13ef-ecc8-a315-9b88" type="selectionEntry"/>
+        <entryLink id="dcc8-d049-377f-e25b" name="Warlord Traits (Night Lords)" hidden="false" collective="false" import="true" targetId="94bd-bf8f-a0fd-a28f" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="increment" field="02a8-6ddf-1452-09aa" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="feae-8926-f679-9e2f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="e182-02c7-0292-dd99" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e71-65c5-904e-0d40" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="120.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
