@@ -15148,11 +15148,6 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Las unidades que llegen por despliegue rápido a 6&quot; del portador obtienen -1 Hit por ese turno cuando los atacan con armas a distancia.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e31f-79d3-37e5-eea8" name="Bulky" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Esta unidad se puede subir a cualquier transporte &quot;Chaos&quot; pero cuenta como 2 miniaturas para el conteo.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="0b42-bb47-9e24-41a0" name="Counter-attack" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Una miniatura con esta regla recibe +1 ataque extra el turno que recibe una carga.</characteristic>
@@ -15167,6 +15162,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
       <infoLinks>
         <infoLink id="b2af-6e54-9a4b-ac46" name="Crusader" hidden="false" targetId="8806-e485-e1f7-0b1d" type="profile"/>
         <infoLink id="6cda-e25d-2ef2-b0b1" name="Preferred Enemy" hidden="false" targetId="48cd-32a7-6115-19b3" type="rule"/>
+        <infoLink id="2341-ee2f-6069-d4ea" name="Bulky" hidden="false" targetId="1ff2-6301-c80e-b22c" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6662-f209-767a-c5f1" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -15808,27 +15804,40 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Konrad Curze has Night Vision and Acute Senses and may always elect to have Night Fighting for the first game turn. All units with Legiones Astartes (Night Lords) gain Fear and impose a -1 penalty to enemy units taking attrition checks at 6&quot;.</characteristic>
           </characteristics>
         </profile>
-        <profile id="7674-39e8-b617-4e75" name="The Gilded Panoply" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Proporciona una salvación por armadura de 2+ y 5++ por salvación invulnerable.  Además, tira un dado cada vez que una miniatura con esta regla pierda una herida, a menos que esa herida se haya perdido como resultado de una herida mortal; con un 6, la herida no se pierde.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="30ff-3024-a304-db03" name="Sublime Swordsman" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si esta unidad hace un movimiento de carga, recibe una carga o realiza una intervención heroica, la salvación invulnerable aumenta a ++3 durante toda la fase de combate. Además, elige una unidad que se encuentre en zona de amenaza, y efectúa un chequeo de liderazgo, si gana 1D3 ataques adicionales, si todos sus ataques son dirigidos contra esta unidad.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="ecdd-8386-ea78-66bf" name="Strategic Planning" publicationId="d29c-27bd-74fc-57c6" page="37" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Al comienzo del juego, se puede elegir para Fulgrim un único rasgo de señor de la guerra de la tabla de rasgos de señor de la guerra de la Legión Emperor&apos;s Children.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="a0f6-e338-b037-6d42" name="The Nightmare Mantle" publicationId="d29c-27bd-74fc-57c6" page="190" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Provides a 2+ armour save and a 4++ Invulnerable save, and grants the Hit and Run special rule (immediately after making an attack in the combat phase and before any other action he may move 6&quot; but more than 1&quot; from an enemy model). When the Night Haunter charges, he gains the Hamer of Wrath special rule (+1D3 additional attack).</characteristic>
           </characteristics>
         </profile>
+        <profile id="845c-8a38-1e12-c496" name="The King of Terrors" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Attrition tests at 2&quot; from Kurze are made at a -3 penalty.  Additionally, if any units within 12&quot; that are subject to Fear must take an immediate Morale check or fall back</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a136-7e51-13b3-3adf" name="Acute Senses" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent must subtract 1 from hit rolls that target units with this trait if they are more than 12&quot; away.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b58c-060e-b6b9-5b8f" name="Night Vision" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit that contains at least one model with this special rule ignore negative penalties when shooting.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c70c-8137-b9b0-ccc0" name="Shrouded" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit that contains at least one model with this special rule counts its cover save as being 2 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save, even if it’s in the open.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="da11-18e1-96f7-878d" name="Stealth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this special rule counts its cover saves as being 1 point better than normal. Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="8b36-970f-1dee-9308" name="Bulky" hidden="false" targetId="1ff2-6301-c80e-b22c" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="1feb-0ff0-89aa-e130" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
         <categoryLink id="ada9-550c-4953-16a6" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
@@ -15850,6 +15859,8 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6d09-c8d5-86ef-eb5c" name="Mercy &amp; Forgiveness" hidden="false" collective="false" import="true" type="upgrade">
@@ -15876,6 +15887,8 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0b79-ab23-2ba8-5eaf" name="The Widowmakers" hidden="false" collective="false" import="true" type="upgrade">
@@ -15897,6 +15910,8 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -21798,6 +21813,11 @@ Can never be used to attack units within the firing unit’s Engagement Range. (
     <profile id="12e7-1e38-0187-f879" name="Murderous Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si se obtiene un 6+ en la tirada para herir, infringe 1 mortal adicional al daño.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1ff2-6301-c80e-b22c" name="Bulky" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Esta unidad se puede subir a cualquier transporte &quot;Chaos&quot; pero cuenta como 2 miniaturas para el conteo.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
