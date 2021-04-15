@@ -672,7 +672,7 @@
         <entryLink id="2e04-71e9-0867-eeb0" name="Supreme Creation" hidden="false" collective="false" import="true" targetId="1142-b6d7-98a0-62ab" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
-    <entryLink id="1acb-f0bb-6b70-43db" name="Lord Arkos [Legends]" hidden="false" collective="false" import="true" targetId="59a1-57e1-044a-8ac3" type="selectionEntry">
+    <entryLink id="1acb-f0bb-6b70-43db" name="Lord Arkos [LEGENDS]" hidden="false" collective="false" import="true" targetId="59a1-57e1-044a-8ac3" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1272,6 +1272,101 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="566e-cd38-f203-e7a6" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="e483-3f69-3cc6-cfda" name="Alpharius" hidden="false" collective="false" import="true" targetId="5fe6-d2e0-c111-c113" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9b8a-fb30-b445-3049" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7049-f86b-e228-bbaf" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink id="2205-ab5c-7bda-3b1f" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8fa-fac5-f7a1-9c20" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="14e7-43c2-5203-55c1" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="a08b-efd4-503d-420a" name="Konrad Curze" hidden="false" collective="false" import="true" targetId="e3fe-c20a-a373-92de" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01f7-d7f1-be88-b861" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7049-f86b-e228-bbaf" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink id="f579-8bed-4ae9-173d" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cc1-81b8-a934-d010" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="31d6-ef84-14cb-9748" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="4dc5-1f94-c8a3-5174" name="Sevatar" hidden="false" collective="false" import="true" targetId="f831-9a13-2dca-e6e3" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7049-f86b-e228-bbaf" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01f7-d7f1-be88-b861" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink id="8898-09c8-2785-1617" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e3fe-c20a-a373-92de" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9e2-2f97-b7be-8cb6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="621f-b2f4-ca68-4aaa" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="2c45-ebf0-6932-0742" name="Horus" hidden="false" collective="false" import="true" targetId="794f-7954-d244-2cea" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="37cd-2830-725b-a321" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7049-f86b-e228-bbaf" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink id="c5b7-7616-b2eb-833b" name="Warlord" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7057-1dbd-18f1-7c64" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8d7d-df9c-7084-583f" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
   </entryLinks>
