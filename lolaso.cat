@@ -17,6 +17,7 @@
     <categoryEntry id="2b29-b273-800a-d03c" name="Faction: Nurgle" hidden="false"/>
     <categoryEntry id="6052-607f-48ca-90f1" name="Faction: Heretic Astartes" hidden="false"/>
     <categoryEntry id="c0c0-dbb8-af8d-08e9" name="Terminator" hidden="false"/>
+    <categoryEntry id="cd0a-a648-3b3d-a51c" name="Bubonic Astartes" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry id="f0ae-ef13-9074-6dd7" name="Primarch" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -33,11 +34,6 @@
         <profile id="8df2-dbf5-0697-5930" name="Eternal Warrior" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si una miniatura con esta regla especial sufre una Herida Mortal sin salvar a 5+ se ignora.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="741c-a94e-a3d0-c2d1" name="Fleet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Una unidad compuesta enteramente por miniaturas con esta regla especial puede repetir uno o más dados para avanzar o cargar.</characteristic>
           </characteristics>
         </profile>
         <profile id="d26c-1c61-32a6-04a9" name="It Will Not Die" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -59,8 +55,6 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="39d4-4cac-1966-b93e" name="Death to the False Emperor" hidden="false" targetId="7fa8-182a-aa5e-587f" type="profile"/>
-        <infoLink id="5807-fa42-6b97-e501" name="Special Abilities" hidden="false" targetId="d927-a32e-21b3-28c1" type="infoGroup"/>
         <infoLink id="1fa6-556a-9264-7370" name="Fear" hidden="false" targetId="66ee-e591-4baf-b757" type="profile"/>
         <infoLink id="aa63-149d-a47d-ee85" name="Fearless" hidden="false" targetId="5b53-a9f7-ab08-5bf9" type="profile"/>
       </infoLinks>
@@ -107,7 +101,7 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
-            <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
             <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
@@ -186,14 +180,15 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Shred, Specialist Weapon, Murderous Strike, Paired (1 Attack)</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Specialist Weapon, Shred,  Murderous Strike,  Paired (1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="6591-5a44-0048-7341" name="Shred" hidden="false" targetId="3153-90a8-85d8-8134" type="rule"/>
-            <infoLink id="f52b-a24f-9aee-3c74" name="Specialist Weapon" hidden="false" targetId="b1da-848e-ef8f-fc90" type="rule"/>
+            <infoLink id="f52b-a24f-9aee-3c74" name="Paired (X)" hidden="false" targetId="4dfc-8d0a-a7b9-8c31" type="rule"/>
             <infoLink id="4468-7521-25a3-6ced" name="Murderous Strike (X)" hidden="false" targetId="1513-3da5-3642-6052" type="rule"/>
+            <infoLink id="94d3-ac1e-b51e-f2e7" name="Specialist Weapon" hidden="false" targetId="b1da-848e-ef8f-fc90" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -212,7 +207,7 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                <characteristic name="AP" typeId="75aa-a838-b675-6484">5</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Lethal Precision: Esta arma ignora cobertura, y con una tirada de 6+ para herir ignora salvación por armadura e invulnerable.</characteristic>
               </characteristics>
@@ -249,6 +244,7 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
       </selectionEntries>
       <entryLinks>
         <entryLink id="4d61-f6d3-5ab3-cc0b" name="Primarch" hidden="false" collective="false" import="true" targetId="f0ae-ef13-9074-6dd7" type="selectionEntry"/>
+        <entryLink id="9a3b-7379-6bb9-9aa1" name="Special Abilities" hidden="false" collective="false" import="true" targetId="96ca-0eb1-af59-5569" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120.0"/>
@@ -268,10 +264,10 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
-            <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
-            <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-            <characteristic name="W" typeId="f330-5e6e-4110-0978">7</characteristic>
-            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
             <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
@@ -441,6 +437,11 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0dc5-e74a-d9fa-583b" name="Sire of the Alpha Legion" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -483,6 +484,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
       </selectionEntries>
       <entryLinks>
         <entryLink id="353e-0e73-d948-56f4" name="Primarch" hidden="false" collective="false" import="true" targetId="f0ae-ef13-9074-6dd7" type="selectionEntry"/>
+        <entryLink id="6334-370a-09d8-0309" name="Special Abilities" hidden="false" collective="false" import="true" targetId="96ca-0eb1-af59-5569" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120.0"/>
@@ -531,6 +533,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
         <categoryLink id="44bd-681b-8569-6a71" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="e024-39ce-ecf0-7a9d" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
         <categoryLink id="412b-842d-09a3-d54e" name="Faction: Heretic Astartes" hidden="false" targetId="6052-607f-48ca-90f1" primary="false"/>
+        <categoryLink id="5c71-ed92-9cbb-1228" name="Psyker" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f37b-e586-097a-91e7" name="Dirty Fighter" hidden="false" collective="false" import="true" type="upgrade">
@@ -604,6 +607,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69cc-2656-3796-8c0f" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="8b53-94ee-c2ca-2b64" name="Special Abilities" hidden="false" collective="false" import="true" targetId="96ca-0eb1-af59-5569" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="90.0"/>
@@ -622,11 +626,11 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
-            <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">7</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
-            <characteristic name="W" typeId="f330-5e6e-4110-0978">8</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">11</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
@@ -665,6 +669,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
         <categoryLink id="11a1-bc72-7254-0c73" name="Primarch" hidden="false" targetId="298f-d173-2159-919f" primary="false"/>
         <categoryLink id="961b-aa47-e94a-8fa9" name="Faction: Black Legion" hidden="false" targetId="3230-060a-a727-a71d" primary="false"/>
         <categoryLink id="7407-bb8a-5787-87d9" name="Faction: Heretic Astartes" hidden="false" targetId="6052-607f-48ca-90f1" primary="false"/>
+        <categoryLink id="df90-5fe7-f8de-1bef" name="Psyker" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="db90-4885-e1af-e324" name="The Warmaster&apos;s Talon" hidden="false" collective="false" import="true" type="upgrade">
@@ -802,7 +807,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
                     <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
                     <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
                     <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
                     <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
                   </characteristics>
                 </profile>
@@ -867,7 +872,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="d085-2f13-567a-b6d4" name="Primarch" hidden="false" collective="false" import="true" targetId="f0ae-ef13-9074-6dd7" type="selectionEntry"/>
-        <entryLink id="b294-2d71-c722-4a35" name="Ruinous Powers discipline" hidden="false" collective="false" import="true" targetId="8ad0-7338-0f05-db59" type="selectionEntryGroup">
+        <entryLink id="b294-2d71-c722-4a35" name="Ruinous Power Discipline" hidden="false" collective="false" import="true" targetId="8ad0-7338-0f05-db59" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90a8-a524-8315-747d" type="max"/>
           </constraints>
@@ -881,6 +886,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
             <categoryLink id="d81c-f630-6cb6-e27f" name="Psyker" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
           </categoryLinks>
         </entryLink>
+        <entryLink id="dbed-a1fa-c018-5cc5" name="Special Abilities" hidden="false" collective="false" import="true" targetId="96ca-0eb1-af59-5569" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="130.0"/>
@@ -902,6 +908,11 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
       <infoLinks>
         <infoLink id="b162-a1cf-edac-7983" name="Daemonic Sword" hidden="false" targetId="7c78-a4d1-233e-1f4b" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="576b-eb6d-59e4-9234" name="Precognition" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -910,6 +921,212 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
       <infoLinks>
         <infoLink id="8762-7af4-d448-fbd6" name="Precognition" hidden="false" targetId="5fdd-2c81-8a4b-e5a1" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d879-eb8e-4697-ef94" name="Mortarion" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53db-34d2-4a7c-3050" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0371-4331-5719-ee50" name="Mortarion the Reaper" publicationId="c5d5-a462-a3a0-e776" page="46" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">7</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e0c5-dcd6-aafa-02d5" name="The Barbaran Plate" publicationId="c5d5-a462-a3a0-e776" page="47" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Confers +2 armour save and 4++ Invulnerable save. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c1e8-af42-42bb-f83a" name="Preturnatural Resiliance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">- Re-rolls any failed &quot;It Will Not Die&quot; rolls
+- Any weapon which wounds without regard to Mortarion&apos;s toughness (ie Poison or otherwise) does not affect Mortarion.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6c90-001b-85b6-b4fe" name="Shadow of the Reaper" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Leadership tests taken from Fear caused by Mortarion are taken at a -1 penalty. In addition,  May charge in a turn that has been retired.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1eae-03cd-ae30-bb6e" name="Witch-Spite" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Las tiradas de negar a la bruja contra Mortarion reciben -1 a la tirada.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c36a-3405-7afb-57fc" name="Toxic Presence" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model counts the battle round number as being 4 for the purposes of determining the Contagion range of the Contagion abilities it has.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2349-d833-87e4-d004" name="Plague Master" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 4&quot; to the Contagion range (to a maximum of 12&quot;).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0db1-1899-c5d6-10a4" name="Contagion Psyker" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
+          <characteristics>
+            <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
+            <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">Smite, 2 powers from the Contagion discipline and 1 power from Ruinous Power Discipline.</characteristic>
+            <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8901-0ac7-3654-8c4e" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+        <categoryLink id="f956-b486-81eb-da40" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="1b9d-132d-0872-2c6e" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="2893-153d-68c7-5614" name="Faction: Heretic Astartes" hidden="false" targetId="6052-607f-48ca-90f1" primary="false"/>
+        <categoryLink id="bc02-809f-e6b9-2918" name="Faction: Death Guard" hidden="false" targetId="45a8-2c5e-c576-4f20" primary="false"/>
+        <categoryLink id="3397-eead-0a20-4207" name="Faction: Nurgle" hidden="false" targetId="2b29-b273-800a-d03c" primary="false"/>
+        <categoryLink id="d965-33d0-86e1-d876" name="Psyker" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
+        <categoryLink id="f313-c58a-98ad-50ab" name="Bubonic Astartes" hidden="false" targetId="cd0a-a648-3b3d-a51c" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="78d9-3726-d986-81a5" name="Phosphex Bombs" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bf2-4a1b-d475-9f6d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be9d-24ab-f648-6b5c" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8323-d8df-fe1f-d467" name="Phosphex Bombs" publicationId="c5d5-a462-a3a0-e776" page="190" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1D6</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D3</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast, Poisoned (3), Lingering Death, Crawling Fire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e88f-32bb-d33d-3729" name="Poisoned (X)" hidden="false" targetId="0a29-70e9-c209-02c4" type="rule"/>
+            <infoLink id="5ba9-ffea-8cc8-4b7b" name="Blast" hidden="false" targetId="24c8-51bd-7563-10ef" type="rule"/>
+            <infoLink id="858f-75b0-fb81-871d" name="Lingering Death" hidden="false" targetId="46bf-5005-19b8-280f" type="rule"/>
+            <infoLink id="d073-a692-36cd-409c" name="Crawling Fire" hidden="false" targetId="d5cc-47ae-7f80-2914" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e5fc-98b6-430f-20f9" name="Silence" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeab-9eeb-2dae-f5d1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35f0-db0b-0ac8-d973" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6f3d-b7f7-1b61-1c58" name="Silence" publicationId="c5d5-a462-a3a0-e776" page="47" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D3</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Instant Death, Sunder, Two-handed, Reaping Blow, Sweep Attack</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="15bc-1fe6-572b-f70c" name="Sunder" hidden="false" targetId="15c9-bd28-f988-7ea3" type="rule"/>
+            <infoLink id="f887-6b4a-8472-3c4b" name="Instant Death" hidden="false" targetId="16c6-8c4c-5fff-207c" type="rule"/>
+            <infoLink id="d094-ba21-ade9-8d96" name="Reaping Blow" hidden="false" targetId="24ba-136b-6121-aae0" type="rule"/>
+            <infoLink id="f8bf-7d92-97a0-6236" name="Two-Handed" hidden="false" targetId="640d-ff9c-0de5-01aa" type="rule"/>
+            <infoLink id="6081-8d4e-b171-5c7b" name="Sweep Attack" hidden="false" targetId="5eb3-dcc5-44e8-309b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3300-a415-6c14-4317" name="The Lantern" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4869-0f43-4705-d404" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2d0-d896-012e-e16f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="4187-07f2-8de6-d50d" name="The Lantern" publicationId="c5d5-a462-a3a0-e776" page="47" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D6</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Sunder</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d008-4cb0-ea50-5cf0" name="Sunder" hidden="false" targetId="15c9-bd28-f988-7ea3" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f501-2c42-1961-059d" name="Sire of the Death Guard" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0b9-3e87-7e4f-b454" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81ef-39cf-65c6-433e" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8370-7464-fb39-faec" name="Sire of the Death Guard" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All models with the Legiones Astartes (Death Guard) rule in an army with Mortarion gain special rule Stubborn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7d56-7570-110a-53a1" name="Stubborn" hidden="false" targetId="3821-3513-ed97-9d21" type="rule"/>
+            <infoLink id="7cf5-6c3f-083b-36b7" name="Poisoned (X)" hidden="false" targetId="0a29-70e9-c209-02c4" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a302-17e3-c89c-269d" name="Primarch" hidden="false" collective="false" import="true" targetId="f0ae-ef13-9074-6dd7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="130.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="96ca-0eb1-af59-5569" name="Special Abilities" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1393-334f-02b1-d08d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a114-9531-2d9b-b587" type="min"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="bd8d-25a1-4771-3248" name="Special Abilities" hidden="false" targetId="d927-a32e-21b3-28c1" type="infoGroup"/>
+        <infoLink id="8c9e-cf94-b0fb-8aae" name="Death to the False Emperor" hidden="false" targetId="7fa8-182a-aa5e-587f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1338,7 +1555,7 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8ad0-7338-0f05-db59" name="Ruinous Powers discipline" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="8ad0-7338-0f05-db59" name="Ruinous Power Discipline" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="4ae7-0087-c523-d2d4" name="Wrath of the Chaos Gods" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1347,6 +1564,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
           <infoLinks>
             <infoLink id="2b66-d65e-b419-5b6a" name="Wrath of the Chaos Gods" hidden="false" targetId="bd6d-ee2f-346e-7bfd" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="80a7-306f-f959-5fc6" name="The anointed of darkness" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1355,6 +1577,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
           <infoLinks>
             <infoLink id="44a0-3584-a11c-22a9" name="The anointed of darkness" hidden="false" targetId="5138-e2bb-11c5-5b01" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1af1-f058-233b-caa7" name="Chaos Favor" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1363,6 +1590,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
           <infoLinks>
             <infoLink id="989f-8ee3-4ce8-ba13" name="Chaos Favor" hidden="false" targetId="da70-5869-441a-33f5" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="38c1-7355-1a05-fa53" name="Jump to the warp" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1371,6 +1603,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
           <infoLinks>
             <infoLink id="4518-fdc8-7e41-d0e1" name="Jump to the warp" hidden="false" targetId="d044-d40a-94da-ab5d" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -1389,7 +1626,7 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
 Can never be used to attack units within the firing unit’s Engagement Range. (Zona de amenaza)</description>
     </rule>
     <rule id="3296-d412-2677-f5fd" name="Armourbane" hidden="false">
-      <description>Al inicio de la fase de combate tira 1D3 por cada arma que posea esta regla, el resultado de este dado se la agrega al factor de penetración del arma. Si en esa tirada sale un 5+ no se pueden efectuar tiradas por salvación invulnerable contra heridas efectuadas por esta arma durante toda la fase.</description>
+      <description>Las tiradas para herir de 5+ ingnoran las tiradas de salvación invulnerable y agregan AP -1.</description>
     </rule>
     <rule id="3153-90a8-85d8-8134" name="Shred" hidden="false">
       <description>La arma con esta regla repite las tiradas para impactar de 1&apos;s.</description>
@@ -1401,22 +1638,22 @@ Can never be used to attack units within the firing unit’s Engagement Range. (
       <description>En el turno en que esta miniatura cargue,  se reciba una carga o se efectúe una intervención heróica agrega +1 a la fuerza cuando se ataque con esta arma y resta -1 a la tirada para impactar con esta arma.</description>
     </rule>
     <rule id="b1da-848e-ef8f-fc90" name="Specialist Weapon" hidden="false">
-      <description>Each time the bearer fights, it makes 1 additional attack with this weapon.</description>
+      <description>La arma con esta regla repite las tiradas para herir de 1&apos;s.</description>
     </rule>
     <rule id="1513-3da5-3642-6052" name="Murderous Strike (X)" hidden="false">
       <description>Si se obtiene un (X)+ en la tirada para herir, infringe 1 mortal adicional al daño. Si no se declara el valor de X se asume un 6.</description>
     </rule>
     <rule id="9308-1396-7f21-5d3a" name="Master-crafted" hidden="false">
-      <description>Weapons with the Master-crafted special rule allow the bearer to re-roll one failed roll To Wound per turn with that weapon.</description>
+      <description>Weapons with the Master-crafted special rule allow the bearer to re-roll one damage roll per turn with that weapon.</description>
     </rule>
     <rule id="8df5-7f1b-9275-eced" name="Gets Hot" hidden="false">
       <description>Al disparar un arma que se calienta, tira para impactar como de costumbre. Por cada tirada de 1, sin modificar, para impactar, la miniatura que dispara sufre inmediatamente una Herida (se pueden realizar salvaciones con armadura o invulnerables).</description>
     </rule>
     <rule id="16c6-8c4c-5fff-207c" name="Instant Death" hidden="false">
-      <description>Si una miniatura sufre una herida sin salvar por un arma que tenga esta regla, si no muere tira 1D6; con 4+ sufre 1 herida mortal, y si esa miniatura no es destruida sigue tirando un 1D6, aumentando el resultado requerido para causar una herida mortal en 1 cada vez, hasta que la miniatura de la unidad enemiga por la que se tira sea destruida o la tirada falle.</description>
+      <description>Si una miniatura sufre una herida sin salvar por un arma que tenga esta regla, no puede efectuar tiradas por reglas estilo &quot;no hay dolor&quot; de ningún tipo.</description>
     </rule>
     <rule id="347b-f351-1731-c6c8" name="Hammer of Wrath" hidden="false">
-      <description>Si una miniatura con esta regla especial lanza una granada en este turno y finaliza su movimiento en rango de amenaza de una miniatura enemiga, inmediatamente realiza un Ataque adicional por cada unidad a 3&quot; del portador, que impacta automáticamente y se resuelve con la Fuerza no modificada del portador con AP -1, daño 1D3</description>
+      <description>Si una miniatura con esta regla especial lanza una granada en este turno y finaliza su movimiento en rango de amenaza de una miniatura enemiga, inmediatamente realiza un Ataque adicional por cada unidad a 3&quot; del portador, que impacta automáticamente y se resuelve con la Fuerza no modificada del portador con AP -1, daño 1</description>
     </rule>
     <rule id="d18c-bc7e-97d8-96af" name="Hit and Run " hidden="false">
       <description>Immediately after having fought in the combat phase and before any other action he may move 6&quot; in any direction, but more than 1&quot; from an enemy model.</description>
@@ -1429,6 +1666,30 @@ Can never be used to attack units within the firing unit’s Engagement Range. (
     </rule>
     <rule id="f13b-1be0-2f10-6e40" name="Very Bulky" hidden="false">
       <description>Esta unidad se puede subir a cualquier transporte &quot;Chaos&quot; pero cuenta como 4 miniaturas para el conteo.</description>
+    </rule>
+    <rule id="0a29-70e9-c209-02c4" name="Poisoned (X)" hidden="false">
+      <description>Such a weapon will have an ability that reads ‘Poisoned’ and then a value, such as (4+) or (2+). Each time an attack is made with a poisoned weapon against a unit (excluding VEHICLE or TITANIC units), an unmodified wound roll of this value is always successful.</description>
+    </rule>
+    <rule id="46bf-5005-19b8-280f" name="Lingering Death" hidden="false">
+      <description>Por cada tirada para herir de 6+ genera una nueva tirada para herir (estas tiradas nuevas no pueden generar a su vez nuevas tiradas para herir).</description>
+    </rule>
+    <rule id="d5cc-47ae-7f80-2914" name="Crawling Fire" hidden="false">
+      <description>Las armas que posean esta regla ignora cobertura.</description>
+    </rule>
+    <rule id="24ba-136b-6121-aae0" name="Reaping Blow" hidden="false">
+      <description>Una miniatura que se encuentre peana con peana con más de 1 miniatura enemiga, al final de la fase de combate efectúa un ataque adicional con esta arma.</description>
+    </rule>
+    <rule id="15c9-bd28-f988-7ea3" name="Sunder" hidden="false">
+      <description>Si la miniatura herida no absorbe todos los puntos de daños, la diferencia de daños pasa a la siguiente miniatura de la unidad (Esta puede efectuar las correspondientes tiradas de salvación por armadura).</description>
+    </rule>
+    <rule id="4dfc-8d0a-a7b9-8c31" name="Paired (X)" hidden="false">
+      <description>Each time the bearer fights, it makes X (default 1) additional attack with this weapon. Each time an attack is made with this weapon, you can re-roll the wound roll.</description>
+    </rule>
+    <rule id="3821-3513-ed97-9d21" name="Stubborn" hidden="false">
+      <description>Frag grenades, frag missiles, and Havoc Launchers in the army gain Poisoned (3)</description>
+    </rule>
+    <rule id="5eb3-dcc5-44e8-309b" name="Sweep Attack" hidden="false">
+      <description>Instead of using model&apos;s Attacks value, make a number of attacks equal to the number of enemies within 3 &quot;of him.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1545,6 +1806,11 @@ Can never be used to attack units within the firing unit’s Engagement Range. (
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6&quot;</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Toma una unidad amiga CHAOS, HERETIC ASTARTES, INTANTERIA si se manifiesta puedes retirarla del tablero y ubicarla en cualquier lugar a más de 8&quot; de una unidad enemiga.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ce6f-5318-2f04-7fdd" name="Fleet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Una unidad compuesta enteramente por miniaturas con esta regla especial puede repetir uno o más dados para avanzar o cargar.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

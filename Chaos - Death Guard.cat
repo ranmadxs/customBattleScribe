@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard" revision="127" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="181" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard" revision="127" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="182" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ce57-cc1c-pubN85391" name="Index: Chaos FAQ"/>
     <publication id="ce57-cc1c-pubN108736" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -2280,6 +2280,137 @@
         <categoryLink id="ef6b-1f71-b69f-3177" name="Foetid Virion" hidden="false" targetId="deec-19f6-0353-ee41" primary="false"/>
         <categoryLink id="bf54-51f2-f1c7-c15f" name="Biologus Putrifier" hidden="false" targetId="ecd7-299f-e997-1548" primary="false"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink id="cc08-be73-964b-cb8c" name="Mortarion" hidden="false" collective="false" import="true" targetId="d879-eb8e-4697-ef94" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="dffa-d9d4-0840-303e" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b68f-5a70-13eb-6800" name="Psychic powers" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8931-234a-e1bd-6f3d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2103-acc2-37b1-96c4" name="Contagion Discipline" hidden="false" collective="false" import="true" targetId="51d0-6d01-4ab3-4953" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c829-6edd-9a25-1e36" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="cb5a-09e9-7c59-764e" name="Ruinous Powers discipline" hidden="false" collective="false" import="true" targetId="8ad0-7338-0f05-db59" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8654-2a6c-3005-a86b" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4457-81b3-23d9-5d5b" name="Host of Plagues" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e7e-8af5-e072-ce98" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2e36-676e-8f59-0aa8" name="The Droning" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="da4b-fc74-3512-986e" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ae0-f43d-d60d-3b60" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5623-a603-8e22-2c25" name="The Droning (Contagion)" hidden="false" targetId="245b-6bcf-429b-1b1f" type="profile"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="a9e5-996a-ca9a-3618" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4b3b-cfa1-191c-4f22" name="Shamblerot" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e70e-5dde-3389-8674" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09e7-6e63-04a4-b953" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="20e7-b18c-5f12-0de3" name="Shamblerot (Contagion)" hidden="false" targetId="5ed4-1c24-fcd8-468e" type="profile"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="30de-08b3-eeca-cc47" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a3ee-1837-d08c-d155" name="Sanguous Flux" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ddb7-e141-9bc8-f972" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="745f-5550-97ca-215c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3640-552d-6dd6-415d" name="Sanguous Flux (Contagion)" hidden="false" targetId="606b-7954-c5a8-4b0c" type="profile"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="9664-d90e-9a3f-aa99" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f714-c4d7-6edd-ce4f" name="Gloaming Bloat" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cd53-a17f-1dc3-a3c8" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c877-c1c8-d85a-fb52" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f04c-fa67-05cb-d035" name="Gloaming Bloat (Contagion)" hidden="false" targetId="3484-8a9f-4bbf-c170" type="profile"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="c5aa-c5c3-2400-2988" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3e6f-06f5-df7d-2a7b" name="Warlord" hidden="false" collective="false" import="true" targetId="a840-f0b3-abac-6d1c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="886b-8e30-bdab-16bf" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c4ef-d6d2-a44f-3356" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="d59b-974a-122c-6f79" type="selectionEntryGroup"/>
+      </entryLinks>
     </entryLink>
   </entryLinks>
   <rules>
@@ -12491,5 +12622,6 @@ Nurgle&apos;s Gift (Contagion): While an enemy unit is within Contagion Range of
   </sharedInfoGroups>
   <catalogueLinks>
     <catalogueLink id="769d-751a-9765-b4da" name="Chaos - FW Heretic Astartes" targetId="2128-f196-8f1c-b352" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="fd89-687e-6fee-3502" name="lolaso" targetId="2115-e540-3cae-9926" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
