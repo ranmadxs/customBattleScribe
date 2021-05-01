@@ -146,11 +146,11 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
         <categoryLink id="896d-9e61-1d7a-efa4" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
         <categoryLink id="f342-ddef-76cd-3643" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="646d-a1b3-4f36-5f2c" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="a4f4-c4fa-b00a-1212" name="Primarch" hidden="false" targetId="298f-d173-2159-919f" primary="false"/>
         <categoryLink id="863f-9fb0-d2db-5bd4" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
         <categoryLink id="2b09-3615-a6a3-c9d8" name="Faction: Night Lords" hidden="false" targetId="c2a7-261e-e158-76a9" primary="false"/>
         <categoryLink id="8664-0216-f08c-e39b" name="Faction: Slaanesh" hidden="false" targetId="82ab-d3bb-c2db-1965" primary="false"/>
         <categoryLink id="52ce-28b7-4bf2-4466" name="Faction: Heretic Astartes" hidden="false" targetId="6052-607f-48ca-90f1" primary="false"/>
+        <categoryLink id="94fa-582b-c2b8-9fbf" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="26b0-4bb9-73aa-d3d7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="02ad-d010-bf77-9c5e" name="Frag Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -264,10 +264,10 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
-            <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
-            <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
-            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
             <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
@@ -306,9 +306,9 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
         <categoryLink id="bc92-7d37-e7a6-c142" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="a101-41d3-a00c-dcfc" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
         <categoryLink id="84b0-2ac0-8f45-bad3" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="f715-f8b9-5f9e-e966" name="Primarch" hidden="false" targetId="298f-d173-2159-919f" primary="false"/>
         <categoryLink id="23a8-2a86-8f64-4485" name="Faction: Alpha Legion" hidden="false" targetId="4dfc-aea7-8139-58ca" primary="false"/>
         <categoryLink id="7802-d00e-0bcb-be4b" name="Faction: Heretic Astartes" hidden="false" targetId="6052-607f-48ca-90f1" primary="false"/>
+        <categoryLink id="7186-2f63-677e-894e" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="26b0-4bb9-73aa-d3d7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="38f7-3b05-236e-d85d" name="Venom Spheres" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -628,7 +628,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">7</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
-            <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">8</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
             <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
@@ -666,10 +666,10 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
         <categoryLink id="476f-b73f-924e-f16e" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="3e5b-0f0b-e46e-f9a0" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
         <categoryLink id="52ee-fbc8-3cc1-ae9f" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="11a1-bc72-7254-0c73" name="Primarch" hidden="false" targetId="298f-d173-2159-919f" primary="false"/>
         <categoryLink id="961b-aa47-e94a-8fa9" name="Faction: Black Legion" hidden="false" targetId="3230-060a-a727-a71d" primary="false"/>
         <categoryLink id="7407-bb8a-5787-87d9" name="Faction: Heretic Astartes" hidden="false" targetId="6052-607f-48ca-90f1" primary="false"/>
         <categoryLink id="df90-5fe7-f8de-1bef" name="Psyker" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
+        <categoryLink id="58e3-51da-6cc7-0a8c" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="26b0-4bb9-73aa-d3d7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="db90-4885-e1af-e324" name="The Warmaster&apos;s Talon" hidden="false" collective="false" import="true" type="upgrade">
@@ -743,19 +743,19 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
           <profiles>
             <profile id="c183-9b67-7547-c250" name="Sire of the Sons of Horus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Horus has Good of Battle special rules. In addition, he gains D3 attacks. If he (and any terminator-armoured) are in reserve the player may choose what turn he arrives instead of normal rules.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Horus has Good of Battle special rules. In addition, he gains D3 attacks, if you perform a heroic intervention or a charge. Further he (and any terminator-armoured) are in reserve the player may choose what turn he arrives instead of normal rules.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8f44-da3d-f8c3-c36c" name="God of Battle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">- All models with Black Legion key gain 1 Ld to a max of 10.
+- Al inicio de la batalla, depués que se ha desplegado pero antes del primer turno puede elegir una unidad que no sea Horus y dejarla en reserva estratégica.
+- Agrega 1CP extra.
+- This model can only lose a maximum of 6 wounds in each phase.
+</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="8b35-9ce0-0041-6181" name="God of Battle" page="0" hidden="false">
-              <description>- All models with Black Legion key gain 1 Ld to a max of 10.
-- Al inicio de la batalla, depués que se ha desplegado pero antes del primer turno puede elegir una unidad que no sea Horus y dejarla en reserva estratégica.
-- Agrega 1CP extra.
-
-</description>
-            </rule>
-          </rules>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -994,6 +994,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
         <categoryLink id="3397-eead-0a20-4207" name="Faction: Nurgle" hidden="false" targetId="2b29-b273-800a-d03c" primary="false"/>
         <categoryLink id="d965-33d0-86e1-d876" name="Psyker" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
         <categoryLink id="f313-c58a-98ad-50ab" name="Bubonic Astartes" hidden="false" targetId="cd0a-a648-3b3d-a51c" primary="false"/>
+        <categoryLink id="2886-7c64-cae0-e8df" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="26b0-4bb9-73aa-d3d7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="78d9-3726-d986-81a5" name="Phosphex Bombs" hidden="false" collective="false" import="true" type="upgrade">
@@ -1662,7 +1663,7 @@ Can never be used to attack units within the firing unit’s Engagement Range. (
       <description>Si un personaje tiene la regla especial Rending, cuando la tirada para herir es de 6+ aumenta el factor de penetración y el daño en 1, es decir un arma con AP 0 se convierte en AP -1. Además si el ataque se efectúa contra vehículos o monstruos genera 1D3 mortales adicionales al daño.</description>
     </rule>
     <rule id="220c-c16c-f7b5-c610" name="Disabling Strike" hidden="false">
-      <description>Any model that is wounded but not killed by The Warmasters Talon in an assault loses -1 WS and -1 Str for the remainder of the game. This is cumulative.</description>
+      <description>Any model that is wounded but not killed by The Warmasters Talon in an assault loses -1 WS and -1 Str for the remainder of the game. This is not cumulative.</description>
     </rule>
     <rule id="f13b-1be0-2f10-6e40" name="Very Bulky" hidden="false">
       <description>Esta unidad se puede subir a cualquier transporte &quot;Chaos&quot; pero cuenta como 4 miniaturas para el conteo.</description>
