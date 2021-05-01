@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2128-f196-8f1c-b352" name="Chaos - FW Heretic Astartes" revision="70" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2128-f196-8f1c-b352" name="Chaos - FW Heretic Astartes" revision="73" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="182" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="cfcb-6416-94fb-4744" name="Wound Track, Drop Pod">
       <characteristicTypes>
@@ -246,13 +246,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3ffd-e386-5370-dbb4" name="Greater Blight Drone" publicationId="7573-8d1b-acdf-2de8" page="120" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="name" value="Death Guard Greater Blight Drone">
-          <conditions>
-            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce57-cc1c-37cb-cb71" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile id="8e57-4502-70fd-1d7d" name="Greater Blight Drone" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
@@ -318,13 +311,6 @@
           </constraints>
           <profiles>
             <profile id="f431-2d19-2885-8413" name="Greater plague probe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-              <modifiers>
-                <modifier type="set" field="837d-5e63-aeb7-1410" value="Plague Weapon">
-                  <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce57-cc1c-37cb-cb71" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -348,17 +334,6 @@
           </constraints>
           <profiles>
             <profile id="0d7f-ab10-7c2f-d281" name="Blightreaper cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-              <modifierGroups>
-                <modifierGroup>
-                  <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ce57-cc1c-37cb-cb71" type="instanceOf"/>
-                  </conditions>
-                  <modifiers>
-                    <modifier type="set" field="837d-5e63-aeb7-1410" value="Plague Weapon"/>
-                    <modifier type="set" field="75aa-a838-b675-6484" value="-2"/>
-                  </modifiers>
-                </modifierGroup>
-              </modifierGroups>
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
@@ -1921,6 +1896,9 @@
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e31-4016-3fe1-162d" type="max"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4746-9adf-a87e-55f9" type="min"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="15.0"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -1936,6 +1914,9 @@
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2caa-648a-7d46-d82c" type="max"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac3e-e702-43a1-5659" type="min"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="20.0"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -1951,6 +1932,9 @@
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5a1a-8544-2b18-bd24" type="max"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ec4d-a0a1-6dd4-08a5" type="min"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="15.0"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <costs>
