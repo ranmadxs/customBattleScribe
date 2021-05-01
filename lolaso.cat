@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2115-e540-3cae-9926" name="lolaso" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="182" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2115-e540-3cae-9926" name="lolaso" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="185" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="c5d5-a462-a3a0-e776" name="HH: LAICL"/>
     <publication id="289e-a9c7-8c20-a76e" name="Codex: Heretic Astartes - Chaos Space Marines"/>
   </publications>
+  <profileTypes>
+    <profileType id="d763-932b-ba0e-d906" name="Stratagem">
+      <characteristicTypes>
+        <characteristicType id="4f4f-3526-8e19-2e25" name="Command Points"/>
+        <characteristicType id="f706-05f0-0850-bb36" name="Description"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
   <categoryEntries>
     <categoryEntry id="4dfc-aea7-8139-58ca" name="Faction: Alpha Legion" hidden="false"/>
     <categoryEntry id="3230-060a-a727-a71d" name="Faction: Black Legion" hidden="false"/>
@@ -1619,6 +1627,117 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
       <entryLinks>
         <entryLink id="247e-4d60-94d6-aaac" name="Precognition" hidden="false" collective="false" import="true" targetId="576b-eb6d-59e4-9234" type="selectionEntry"/>
       </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="399f-cb6c-2aae-5ee8" name="NIGHT LORDS STRATAGEMS" hidden="false" collective="false" import="true">
+      <categoryLinks>
+        <categoryLink id="864b-c230-dc21-26b7" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a5df-2661-6093-7be2" name="IN MIDNIGHT CLAD" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dd7-c623-e536-6ec8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f0f3-f0c7-bbdb-4224" name="IN MIDNIGHT CLAD" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your opponent’s Shooting phase, when a NIGHT LORDS INFANTRY unit from your army is targeted by a shooting attack. Until the end of that phase, when resolving an attack against that unit, subtract 1 from the hit roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="04cb-2c28-9f74-4877" name="VOX SCREAM" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4892-d9b3-6499-ac46" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3c93-1f92-3ea5-5653" name="VOX SCREAM" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">2</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem at the end of your Movement phase. Select one enemy unit within 18&quot; of any NIGHT LORDS units from your army. Until the start of your next Movement phase, enemy units cannot be affected by any of the selected unit’s aura abilities.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="4044-abbf-89b4-9205" name="FROM THE NIGHT" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea61-6b21-0bc7-6bf9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4691-6dad-f282-ec22" name="FROM THE NIGHT" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem at the start of your Charge phase. Select one NIGHT LORDS INFANTRY unit from your army that is entirely on or within a terrain feature. Until the end of the turn, when a charge roll is made for that unit, add 2 to the result, and when resolving an attack made with a melee weapon by a model in that unit, add 1 to the hit roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="55aa-7fda-ac23-149e" name="WE HAVE COME FOR YOU" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b767-f54a-1404-b1a2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0cce-983e-ee0b-5401" name="WE HAVE COME FOR YOU" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem at the start of your opponent’s Movement phase. Select one NIGHT LORDS unit from your army that is not a VEHICLE. Until the start of your next turn, enemy units within 1&quot; of that unit cannot Fall Back unless they have the VEHICLE or TITANIC keyword, or have a minimum Move characteristic.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="d8da-046d-a32d-b3c4" name="PREY ON THE WEAK" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f24a-d250-676e-3d70" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="db1d-9635-a62b-20ff" name="PREY ON THE WEAK" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Shooting phase or the Fight phase, when a NIGHT LORDS unit from your army is chosen to shoot or fight with. Until the end of that phase, when resolving an attack made by a model in that unit against an enemy unit whose models have a lower Leadership characteristic than the attacking model, add 1 to the hit roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="f9a5-8ccc-b7e3-efbc" name="RAPTOR STRIKE" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00fa-d948-63e1-a44d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2cfa-f85c-a37b-f037" name="RAPTOR STRIKE" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Charge phase, before making a charge roll for a NIGHT LORDS JUMP PACK unit from your army that was set up on the battlefield as reinforcements this turn. Roll 3D6 for that charge roll instead of 2D6.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="fd52-c323-13a8-5ae1" name="HIT AND RUN" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1537-55e0-bf18-412b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e756-f494-a693-20dd" name="HIT AND RUN" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem at the start of your Charge phase. Select one NIGHT LORDS unit from your army. That unit can charge even if it Fell Back this turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="086e-ab1d-122a-fa5d" name="FLAY THEM ALIVE" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e472-bbdd-22ce-83c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="32ca-cf63-e4ff-9c8d" name="FLAY THEM ALIVE" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in the Fight phase, when an enemy unit is destroyed as a result of an attack made by a NIGHT LORDS model from your army. Until the end of the turn, when a Morale test is taken for an enemy unit within 12&quot; of that NIGHT LORDS unit, your opponent must roll one additional D6 and you can choose one of those dice to be discarded.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
