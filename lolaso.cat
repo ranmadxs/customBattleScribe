@@ -138,12 +138,12 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
         </profile>
         <profile id="7022-dfa1-2944-3a08" name="Shrouded" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit that contains at least one model with this special rule counts its cover save as being 2 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save, even if it’s in the open.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit that contains at least one model with this special rule counts its cover save as being 1 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save, even if it’s in the open.</characteristic>
           </characteristics>
         </profile>
         <profile id="e343-70b9-7fec-d1ce" name="Stealth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this special rule counts its cover saves as being 1 point better than normal. Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Una miniatura con esta regla mejora su tirada de salvación invulnerable en 1 con un máximo de 3++, si se encuentra en terreno que otorgue cobertura.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1628,7 +1628,7 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
         <entryLink id="247e-4d60-94d6-aaac" name="Precognition" hidden="false" collective="false" import="true" targetId="576b-eb6d-59e4-9234" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="399f-cb6c-2aae-5ee8" name="NIGHT LORDS STRATAGEMS" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="399f-cb6c-2aae-5ee8" name="Night Lords Stratagems" hidden="false" collective="false" import="true">
       <categoryLinks>
         <categoryLink id="864b-c230-dc21-26b7" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
       </categoryLinks>
@@ -1645,6 +1645,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="04cb-2c28-9f74-4877" name="VOX SCREAM" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1658,6 +1663,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4044-abbf-89b4-9205" name="FROM THE NIGHT" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1671,6 +1681,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="55aa-7fda-ac23-149e" name="WE HAVE COME FOR YOU" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1684,6 +1699,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d8da-046d-a32d-b3c4" name="PREY ON THE WEAK" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1697,6 +1717,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f9a5-8ccc-b7e3-efbc" name="RAPTOR STRIKE" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1710,6 +1735,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="fd52-c323-13a8-5ae1" name="HIT AND RUN" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1723,6 +1753,11 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="086e-ab1d-122a-fa5d" name="FLAY THEM ALIVE" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1736,6 +1771,859 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="794b-c2c2-c0e4-8907" name="Chaos" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="50ca-e4ea-6a91-e9e6" name="BESEECH THE CHAOS GODS" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f33-c442-c711-3226" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e76a-8397-6684-ba10" name="BESEECH THE CHAOS GODS" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem at the start of any of your turns. Select a unit with the &lt;MARK OF CHAOS&gt; keyword that has not dedicated itself to one of the Chaos Gods. You can immediately dedicate that unit to one of the Chaos Gods as described here.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d020-bd6a-f653-1de4" name="DAEMONFORGE" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d55b-06f0-a885-e036" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d7c2-27d5-06a3-ec80" name="DAEMONFORGE" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Shooting or Fight phase when a Chaos Space Marine DAEMON VEHICLE is chosen to attack. You can re-roll all failed hit and wound rolls for that model until the end of the phase.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8260-326c-77b9-f0ed" name="GIFTS OF CHAOS" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c309-8520-ad51-57ce" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="969b-fef1-454d-a7f5" name="GIFTS OF CHAOS" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1CP/3CP</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem before the battle. Your army can have one extra Artefact of Chaos for 1 CP, or two extra Artefacts of Chaos for 3 CPs. All of the Artefacts of Chaos that you include must be different and be given to different CHAOS SPACE MARINE CHARACTERS. You can only use this Stratagem once per battle.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7619-1210-dd80-f5ed" name="CHAOS FAMILIAR" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d84-2189-7501-b113" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5eb2-bd75-95de-b4b6" name="CHAOS FAMILIAR" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem at the start of your Psychic phase. Select a friendly HERETIC ASTARTES PSYKER. That model can replace any of its psychic powers with a power of your choice from the Dark Hereticus discipline.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fa07-e4d0-6330-0187" name="DAEMON SHELL" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2bf-c0df-42c6-a44a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4d23-247c-9a23-fecc" name="DAEMON SHELL" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem just before a HERETIC ASTARTES CHARACTER attacks with a bolt pistol, boltgun, combi-bolter or the boltgun profile of a combi-weapon. You can only make a single hit roll with the weapon (or boltgun profile) this phase, which you cannot re-roll. If the shot hits, the target suffers D3 mortal wounds; if the shot misses, your character suffers D3 mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="28ca-0df2-613e-fd56" name="BLASPHEMOUS MACHINES" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca04-1758-cd7f-fd87" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b502-3ac2-109f-da5f" name="BLASPHEMOUS MACHINES" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem just before a HERETIC ASTARTES VEHICLE attacks in the Shooting phase. Until the end of the phase, that vehicle can ignore the penalties for moving and firing Heavy weapons, or for Advancing and firing Assault weapons.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c830-ec49-933b-fb3b" name="LINEBREAKER BOMBARDMENT" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e908-bc45-7d70-53af" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9711-fa2e-5737-58c4" name="LINEBREAKER BOMBARDMENT" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Shooting phase if a &lt;LEGION&gt; Chaos Vindicator is within 6&quot; of 2 other friendly &lt;LEGION&gt; Chaos Vindicators. If you do so, the Vindicators cannot fire their demolisher cannons this phase – instead, select a visible point on the battlefield within 24&quot; of all three vehicles. Roll a D6 for each unit within 3&quot; of that point. Add 1 to the result if the unit being rolled for has 10 or more models, but subtract 1 if the unit being rolled for is a CHARACTER. On a 4+ that unit suffers 3D3 mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8306-6976-705d-44ea" name="CHAOS BOON" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="611d-885b-c9d8-8e42" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0490-94c2-16f9-a7ce" name="CHAOS BOON" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem at the end of a Fight phase in which one of your HERETIC ASTARTES CHARACTERS (excluding DAEMON CHARACTERS) slays an enemy CHARACTER, VEHICLE or MONSTER. Roll 2D6 and look up the result below.
+
+2D6	Boon
+2	Spawndom: Your character is slain. However, before removing the model as a casualty, you can add a Chaos Spawn to your army. If you do so, set up the Chaos Spawn within 6&quot; of the character and not within Engagement Range of any enemy units before removing them as a casualty.
+3	Arcane Occulum: Add 6&quot; to the Range of all of the character’s ranged weapons.
+4	Temporal Distortion: Add 3&quot; to the character’s Move characteristic.
+5	Strength of the Berzerker: Add 1 to the character’s Strength characteristic.
+6	Warp Frenzy: Add 1 to the character’s Attacks characteristic.
+7	The Eye Opens: Choose a boon of your choice (you cannot choose Spawndom or Daemonhood).
+8	Blademaster: Subtract 1 from hit rolls that target the character in the Fight phase.
+9	Cosmic Fate: Add 1 to all saving throws made for the character.
+10	Crystalline Body: Add 1 to the character’s Toughness characteristic.
+11	Fragment of Immortality: Add 1 to the character’s Wounds characteristic.
+12	Daemonhood: Your character is slain. However, before removing the model as a casualty, you can add a Daemon Prince to your army. If you do, set up the Daemon Prince within 6&quot; of your character before removing them.
+
+Boons last for the rest of the battle. The same boon cannot be received by a model more than once – if this happens, choose a result the model has not yet received (excluding Spawndom and Daemonhood). Chaos Spawn or Daemon Princes created by a boon must have the same Mark of Chaos as the model had (if any), and they do not cost any reinforcement points in a matched play game.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6b07-effa-dc9a-5bee" name="KILLSHOT" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f994-081d-fb19-6683" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dfcd-10f3-447f-7649" name="KILLSHOT" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Shooting phase if a &lt;LEGION&gt; Chaos Predator is within 6&quot; of 2 other friendly &lt;LEGION&gt; Chaos Predators. Add 1 to the wound rolls and damage for all of the Predators’ attacks that target MONSTERS or VEHICLES this phase.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="89a0-a6b9-8dce-913a" name="FURY OF KHORNE" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bab1-c7ba-d0c8-8d43" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7005-3df3-053b-1807" name="FURY OF KHORNE" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">3</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem at the end of the Fight phase. Select a HERETIC ASTARTES KHORNE INFANTRY or BIKER unit – that unit can immediately fight again.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="db69-b4b1-ddd9-bb6a" name="FLAKK MISSILE" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0cb-ef4f-479e-a409" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ddf0-4a1d-9b3a-4851" name="FLAKK MISSILE" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem just before a friendly HERETIC ASTARTES INFANTRY model attacks a unit that can FLY with a missile launcher. You only make a single hit roll with the weapon this phase; however, add 1 to the hit roll and, if it hits, the target suffers D3 mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8176-4589-c145-ad57" name="FIRE FRENZY" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44c4-01cb-f311-0fbe" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e60c-7717-4e4f-7540" name="FIRE FRENZY" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Shooting phase, just before a Helbrute shoots. If that Helbrute did not move in its Movement phase, it can fire all of its weapons twice but all of its attacks must target the nearest visible enemy unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8530-426a-c3ec-b996" name="VETERANS OF THE LONG WAR" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ced-9392-8460-2d5f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e92c-d357-7b10-b580" name="VETERANS OF THE LONG WAR" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem when a HERETIC ASTARTES INFANTRY or BIKER unit is selected to attack in a Shooting or Fight phase (excluding units from Renegade Chapters). You can add 1 to all wound rolls made for the unit until the end of the phase.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1db4-3f44-d501-82f6" name="TIDE OF TRAITORS" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c697-4d85-710b-dfa3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0b0f-866c-3814-83c2" name="TIDE OF TRAITORS" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">2</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem at the end of your Movement phase. If you do, pick a unit of Chaos Cultists and remove it from the battlefield. You can then set it up again wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy models, at its full starting strength. You can only use this Stratagem once per battle.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f6c3-4f5f-225d-bba3" name="Death Guard Stratagems" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="f503-7def-e0f6-3af3" name="TRENCH FIGHTERS" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9948-0d6e-f2a1-c665" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5fde-b36a-ad4c-2e99" name="TRENCH FIGHTERS" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in the Fight phase, when a DEATH GUARD PLAGUE MARINES unit from your army is selected to fight. Until the end of the phase, each time a model in that unit fights, if it is equipped with any plague knives, it makes 1 additional attack with one of its plague knives.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0161-f8ce-9b99-f183" name="GRANDFATHERLY INFLUENCE" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69a7-d9c4-9078-a12b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6753-2e9a-4c51-7138" name="GRANDFATHERLY INFLUENCE" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1CP/2CP</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem before the battle, when you are mustering your army. Select one DEATH GUARD CHAOS SPAWN unit from your army:
+Add 1 to the Toughness characteristic of models in that unit.
+That unit has the Disgustingly Resilient ability.
+If that unit contains 3 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1abf-7780-3f5f-f6a2" name="CREEPING BLIGHT" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f96d-4cf1-4e99-c896" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ace4-2a7f-eb44-c531" name="CREEPING BLIGHT" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in the Fight phase, when a DEATH GUARD unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack with a plague weapon, on an unmodified wound roll of 6, that attack has an Armour Penetration characteristic of -4.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="018f-8a55-e427-da28" name="SICKLY CORROSION" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b114-1927-29c6-57d2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d53f-f47e-101b-a568" name="SICKLY CORROSION" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">2</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in either the Fight phase or your Shooting phase, when a DEATH GUARD model from your army makes an attack with a plague weapon that scores a hit against an enemy unit. Until the end of the turn, each time an attack is made by a DEATH GUARD model against that enemy unit, re-roll a wound roll of 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d20c-7517-1f42-2f2b" name="FIRE FEVER" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fab-8bf5-2cce-43a9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2e5e-87e9-a035-5b96" name="FIRE FEVER" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Shooting phase, when a DEATH GUARD HELBRUTE model from your army is selected to shoot. Until the end of the phase, that model can only target a single eligible enemy unit and each time an attack is made by that model, add 1 to that attacks hit roll and add 1 to that attack’s wound roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="663e-8a02-810e-a95a" name="BELCHING FUMES" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea51-9ea8-4552-613f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a18c-7ec8-8338-aab7" name="BELCHING FUMES" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1CP/2CP</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem at the start of your opponent’s Shooting phase. Select one MYPHITIC BLIGHT-HAULERS unit from your army. Until the end of the phase, each time an enemy model makes an attack with a ranged weapon against that unit, reduce the number of attacks made with that weapon by 1 (to a minimum of 1). If that unit contains 2 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a707-4ced-5d68-b5ad" name="VERMID WHISPERS" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5c8-1d97-1bd7-c55d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="01b1-ece1-3f57-cc23" name="VERMID WHISPERS" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Shooting phase, when a DEATH GUARD TERMINATOR unit from your army is selected to shoot, or in the Fight phase, when a DEATH GUARD TERMINATOR unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack, add 1 to that attack’s hit roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3f07-7dce-04b6-3a55" name="BLIGHT BOMBARDMENT" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1aae-f583-bda3-14ad" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d6f8-4edc-5486-167d" name="BLIGHT BOMBARDMENT" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">2CP/3CP</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Command phase, if a DEATH GUARD WARLORD from your army is on the battlefield. Select one point on the battlefield and place a marker on that point. At the start of your next Command phase, roll one D6 for each unit within 6&quot; of the centre of that marker, adding 1 if the unit being rolled for is an INFANTRY unit and subtracting 1 if the unit being rolled for is a CHARACTER: on a 2-6, that unit suffers D3 mortal wounds; on a 7+, that unit suffers D6 mortal wounds. The marker is then removed. If your WARLORD has the LORD OF VIRULENCE keyword, this Stratagem costs 2CP; otherwise it costs 3CP. You can only use this Stratagem once.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="69f3-bcf5-6470-47d1" name="HAZE OF CORRUPTION" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12ea-fe31-628c-e172" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d313-80ba-b9e9-d726" name="HAZE OF CORRUPTION" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">2</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in the Fight phase, when a DEATH GUARD CORE unit from your army is selected to fight. Until the end of the phase, each time an enemy model is destroyed by an attack made by a model in that unit, any excess damage inflicted by that attack is not lost and is instead suffered by another model in that unit (do not make a saving throw for that model). This continues until there is no excess damage remaining.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1a35-1633-70fd-cd5b" name="THE DEAD WALK AGAIN" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00bb-1a12-f066-615e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4e5e-2d86-f7f0-6c34" name="THE DEAD WALK AGAIN" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Command phase. Select one POXWALKERS unit from your army and roll seven D6s: for each 3+, one of that unit’s destroyed models is added back to it with 1 wound remaining. Models added back to that unit in this way can be set up within Engagement Range of enemy units that are already within Engagement Range of that unit. Each unit can only be selected for this Stratagem once per battle.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8c91-98f6-58dc-966f" name="ETERNAL HATRED" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f9e-9640-fe11-2186" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5dad-1c56-6b4f-0ef8" name="ETERNAL HATRED" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">2</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Shooting phase, when a BUBONIC ASTARTES INFANTRY unit from your army is selected to shoot, or in the Fight phase, when a BUBONIC ASTARTES INFANTRY unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack, add 1 to that attacks wound roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2195-9cce-a783-c1a1" name="CLOUD OF FLIES" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f52f-a28f-6a66-3810" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e549-8eae-0697-11bf" name="CLOUD OF FLIES" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">2CP/4CP</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem at the start of your opponent’s Shooting phase. Select one BUBONIC ASTARTES INFANTRY unit from your army. Until the end of the phase, each time an enemy model shoots, if that unit is not the closest eligible target or within 12&quot; of that model, then until that shooting is resolved, that model cannot target that unit. In addition, until the end of the phase, if the selected unit has the Bodyguard ability, it loses that ability. If the selected unit has the TERMINATOR keyword, this Stratagem costs 4CP; otherwise, it costs 2CP.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="15a6-3954-7e61-9b05" name="MUTANT STRAIN" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66d4-f13c-453f-26b6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4f42-e86d-a2fc-76d9" name="MUTANT STRAIN" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in the Fight phase, when a POXWALKERS unit from your army is selected to fight. Until the end of the phase, each time an attack is made by a model in that unit:
+An unmodified hit roll of 6 inflicts 1 mortal wound on the target in addition to any normal damage.
+An unmodified hit roll of 1 inflicts 1 mortal wound on that POXWALKERS unit after that fight is resolved.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6e4d-4938-716e-f216" name="THE BLIGHTENING" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="800d-ef0e-eb02-d768" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5cce-93c2-91cf-a7d7" name="THE BLIGHTENING" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Shooting phase. Select up to three DEATH GUARD models from your army. Until the end of the phase, plague weapons with the Grenade type that those models are equipped with lose the Blast ability, have a Type characteristic of Pistol 6, and each time that model makes an attack with one of those weapons against an enemy unit within Engagement Range that attack automatically hits the target.
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="44a7-6fac-6bad-1494" name="DISEASED EFFLUENTS" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fb0-19f5-2b73-08f5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ab36-7281-9902-e9e5" name="DISEASED EFFLUENTS" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Command phase. Select one DEATH GUARD CHARACTER model from your army (excluding DAEMON models) and one enemy unit within Engagement Range of that model. That model suffers 1 mortal wound and you then roll one D6: on a 2+, that enemy unit suffers 2D3 mortal wounds. If that enemy unit has the CHARACTER keyword (excluding VEHICLE units), it suffers D3 mortal wounds instead.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ed53-985d-0c6c-09aa" name="BREAK THEIR SPIRITS" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="378f-3b44-fbd3-2564" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9017-cbea-0274-bc0b" name="BREAK THEIR SPIRITS" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in the Fight phase, when a DEATH GUARD TERMINATOR model from your army destroys a model in an enemy INFANTRY, BEASTS or SWARM unit. Until the end of the turn, subtract 4 from the Leadership characteristic of models in that unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6cd0-4aa9-f10f-42b5" name="DARK CRAVINGS" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d4f-5629-201b-e254" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9ddb-08b7-9186-25bb" name="DARK CRAVINGS" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your opponent’s Charge phase. Select one FOETID BLOAT-DRONE unit from your army. Until the end of the phase, if that unit is within 6&quot; horizontally and 5&quot; vertically of any enemy units, it is eligible to perform Heroic Interventions as if it was a CHARACTER. When doing so, it can move up to 6&quot; instead of 3&quot;. All other rules for Heroic Interventions still apply.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1758-92db-560d-0e18" name="DAEMONIC GLUTTONY" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb78-0113-f85a-8e2e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8325-6937-7170-bc1b" name="DAEMONIC GLUTTONY" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in the Fight phase, when a DEATH GUARD DAEMON ENGINE model from your army is selected to fight. Until the end of the phase, each time an enemy model is destroyed by an attack made by that model, that DAEMON ENGINE model regains 1 lost wound (to a maximum of 3 regained wounds per phase).
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3414-cebc-ddb4-cc05" name="GIFTS OF DECAY" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6adb-5b68-037e-6ea2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="be52-50eb-e274-b29c" name="GIFTS OF DECAY" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the DEATH GUARD keyword. Select one DEATH GUARD CHARACTER model from your army and give them one Relic of Decay (this must be a Relic they could have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="605a-1727-51b9-6268" name="FOUL SMOKESCREEN" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14f1-86f8-f8fe-c6e8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="53cb-9267-3176-1c8f" name="FOUL SMOKESCREEN" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your opponent’s Shooting phase, when a DEATH GUARD SMOKESCREEN unit from your army is selected as the target of an attack. Until the end of the phase, each time an attack is made against that unit, subtract 1 from that attacks hit roll.
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3fbb-7d95-0e59-2b36" name="BEFOULED INCUBATORS" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b8f-4f88-9ca0-ba35" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0274-0baf-7639-d931" name="BEFOULED INCUBATORS" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in the Fight phase, when a DEATH GUARD CHARACTER model from your army is selected to fight. Until the end of the phase, each time an enemy model is destroyed by an attack made by that model, roll one D6: on a 3+, that enemy model’s unit suffers 1 mortal wound after your model has resolved all of its attacks (a maximum of 3 mortal wounds can be inflicted per phase via this Stratagem).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9c23-bc84-e0d1-9c99" name="PUTRID DETONATION" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7010-b9c3-a3b3-513d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="57da-c0fb-8548-c6d5" name="PUTRID DETONATION" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1CP/2CP</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in any phase, when a DEATH GUARD VEHICLE model from your army is destroyed. Do not roll to see if that model explodes: it does so automatically. If that model has a Wounds characteristic of 9 or less, this Stratagem costs 1CP; otherwise, it costs 2CP.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6d98-1285-67af-045f" name="CHAMPION OF DISEASE" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f88-7728-6746-04b4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2587-c817-4555-643a" name="CHAMPION OF DISEASE" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem before the battle, when you are mustering your army. Select one BUBONIC ASTARTES model from your army that has the word ‘Champion’ in their profile and give them one of the following Relics of Decay (this must be a Relic they could have): Reaper of Glorious Entropy; Plague Skull of Glothila; Plaguebringer; Suppurating Plate.
+
+Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a669-bc16-17d3-bc27" name="ERUPTION OF FILTH" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0994-8d3c-6c0f-b2da" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="acfa-bba0-390c-1d4e" name="ERUPTION OF FILTH" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in any phase, when a DEATH GUARD CHARACTER model from your army is destroyed instead of using any other rules that are triggered when a model is destroyed (e.g. the Putrid Explosion ability). Before removing that model from play, roll one D6 for each other unit within 3&quot; (excluding NURGLE units): on a 2-5, that unit suffers 1 mortal wound; on a 6, that unit suffers D3 mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="061d-3e3f-8dde-6262" name="RELEASE THE TOXINS" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f7d-dd13-7463-3f2e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f7b8-f977-180e-12c5" name="RELEASE THE TOXINS" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">2</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Command phase. Select one DEATH GUARD CHARACTER model from your army that was equipped with a Relic of Decay at the start of the battle. Roll one D6 for each enemy unit within 7&quot; of that model: on a 2-5, that unit suffers 1 mortal wound; on a 6, that unit sutlers D3 mortal wounds. A model can only be selected for this Stratagem once per battle.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="665c-7d88-a67b-9976" name="FLASH OUTBREAK" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4899-13a0-4b9c-0221" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2fb9-b53c-088f-3603" name="FLASH OUTBREAK" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">2</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Command phase. Select one &lt;PLAGUE COMPANY&gt; unit with the Contagions of Nurgle ability from your army:
+If there are any other &lt;PLAGUE COMPANY&gt; units from your army on the battlefield that have any Contagion abilities that the selected unit does not have, then until the start of your next Command phase, the selected unit has all of the same Contagion abilities (this is in addition to the ones it already has).
+Until the start of your next Command phase, units from your army count the battle round number as one higher than the current battle round number for the purpose of determining the Contagion range of any Contagion abilities they have.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d8d3-6881-51c3-1278" name="UNCLEAN MACHINE SPIRIT" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ac8-fd81-728d-e6e8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f9a0-647c-b09c-5dc2" name="UNCLEAN MACHINE SPIRIT" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Command phase. Select one DEATH GUARD MACHINE SPIRIT model from your army. Until the start of your next Command phase, that model is considered to have its full wounds remaining for the purposes of determining what characteristics on its profile to use.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c6c8-ed1d-4c47-c83b" name="DISGUSTING FORCE" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5136-4819-72b1-afa2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="38c0-691d-676c-56f9" name="DISGUSTING FORCE" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Shooting phase, when a PLAGUEBURST CRAWLER model from your army is selected to shoot. Until the end of the phase:
+Each time that model makes an attack with a Plagueburst mortar, that attack has a Damage characteristic of 3.
+After that model has shot, select one enemy unit that was hit by one or more attacks made with a Plagueburst mortar by that model this turn. Roll one D6 for each other unit within 3&quot; (excluding NURGLE units) of the selected unit: on a 4+, that unit suffers 1 mortal wound.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f1df-92a0-ebf4-2240" name="VIRULENT ROUNDS" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="544e-987d-c732-70a1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="cc47-3544-4588-8a06" name="VIRULENT ROUNDS" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Shooting phase, when a DEATH GUARD CORE unit from your army is selected to shoot. Until the end of the phase, bolt weapons models in that unit are equipped with have the Plague Weapon ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="752b-a122-4ddd-a170" name="PLAGUE-CHOSEN" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea49-2c96-e138-523e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a038-b516-637d-415e" name="PLAGUE-CHOSEN" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the DEATH GUARD keyword. Select one DEATH GUARD CHARACTER model in your army (excluding named characters) and determine one Warlord Trait for that model (this must be a Warlord Trait they can have); that model is only regarded as your WARLORD for the purposes of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results), and you cannot use this Stratagem to give a model two Warlord Traits. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8ca7-621d-3499-eae4" name="OVERWHELMING GENEROSITY" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c42f-3efb-ecaf-0238" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5b6c-445d-f32d-ee18" name="OVERWHELMING GENEROSITY" hidden="false" typeId="d763-932b-ba0e-d906" typeName="Stratagem">
+              <characteristics>
+                <characteristic name="Command Points" typeId="4f4f-3526-8e19-2e25">1</characteristic>
+                <characteristic name="Description" typeId="f706-05f0-0850-bb36">Use this Stratagem in your Shooting phase, when a DEATH GUARD unit from your army is selected to shoot. Until the end of the phase, add 6&quot; to the Range characteristic of plague weapons models in that unit are equipped with.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1803,7 +2691,7 @@ Can never be used to attack units within the firing unit’s Engagement Range. (
       <description>Si la miniatura herida no absorbe todos los puntos de daños, la diferencia de daños pasa a la siguiente miniatura de la unidad (Esta puede efectuar las correspondientes tiradas de salvación por armadura).</description>
     </rule>
     <rule id="4dfc-8d0a-a7b9-8c31" name="Paired (X)" hidden="false">
-      <description>Each time the bearer fights, it makes X (default 1) additional attack with this weapon. Each time an attack is made with this weapon, you can re-roll the wound roll.</description>
+      <description>Each time the bearer fights, it makes X (default 1) additional attack with this weapon. Each additional attack is made with this weapon, you can re-roll the wound roll.</description>
     </rule>
     <rule id="3821-3513-ed97-9d21" name="Stubborn" hidden="false">
       <description>Frag grenades, frag missiles, and Havoc Launchers in the army gain Poisoned (3)</description>

@@ -545,6 +545,14 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2ce5-0424-af97-9393" name="Stratagems" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="f425-d26e-3f00-9f50" name="New CategoryLink" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9416-9de7-c3ee-d629" name="Death Guard Stratagems" hidden="false" collective="false" import="true" targetId="f6c3-4f5f-225d-bba3" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="8543-16f7-e443-661a" name="Plague Marines" hidden="false" collective="false" import="true" targetId="4124-8ae3-177a-4767" type="selectionEntry"/>

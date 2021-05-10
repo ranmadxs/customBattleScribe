@@ -166,7 +166,7 @@
         <categoryLink id="1378-329c-f3d2-fe7e" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="b9c5-cfbc-1815-6a5c" name="NIGHT LORDS STRATAGEMS" hidden="false" collective="false" import="true" targetId="399f-cb6c-2aae-5ee8" type="selectionEntryGroup">
+        <entryLink id="b9c5-cfbc-1815-6a5c" name="Night Lords Stratagems" hidden="false" collective="false" import="true" targetId="399f-cb6c-2aae-5ee8" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -180,6 +180,7 @@
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="39ed-fb03-814e-c6fa" name="Chaos" hidden="false" collective="false" import="true" targetId="794b-c2c2-c0e4-8907" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
