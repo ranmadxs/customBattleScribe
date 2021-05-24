@@ -935,7 +935,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d879-eb8e-4697-ef94" name="Mortarion" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d879-eb8e-4697-ef94" name="Mortarion" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53db-34d2-4a7c-3050" type="max"/>
       </constraints>
