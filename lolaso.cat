@@ -128,7 +128,7 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
         </profile>
         <profile id="2b80-244a-ae46-df0f" name="Acute Senses" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent must subtract 1 from hit rolls that target units with this trait if they are more than 12&quot; away.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent must subtract 1 from hit rolls that target units with this trait.</characteristic>
           </characteristics>
         </profile>
         <profile id="a5b0-97e7-9acd-2585" name="Night Vision" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -185,10 +185,10 @@ Esta regla ignora todas las reglas del tipo &quot;guarda espalas&quot;, &quot;es
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Specialist Weapon, Shred,  Murderous Strike,  Paired (1)</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Specialist Weapon, Shred,  Murderous Strike,  Paired (2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -512,7 +512,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
-            <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
             <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
@@ -577,7 +577,7 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
-                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D3</characteristic>
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Two-handed, Rending, Master-crafted</characteristic>
               </characteristics>
             </profile>
@@ -1042,12 +1042,32 @@ All miniatures with &quot;Heretic Astartes&quot; key &lt;Alpha Legion&gt; gain P
           <profiles>
             <profile id="6f3d-b7f7-1b61-1c58" name="Silence" publicationId="c5d5-a462-a3a0-e776" page="47" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">-</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, select one of the profiles below to make that attack with.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5d33-b6b8-055f-267b" name="Silence - Scythe" publicationId="c5d5-a462-a3a0-e776" page="47" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
-                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
-                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Instant Death, Sunder, Two-handed, Reaping Blow, Sweep Attack</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon, Sweep Attack, Two-handed. Each time an attack is made with this weapon profile, make 2 hit rolls instead of 1.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="abd9-42d4-2025-7938" name="Silence - Cleave" publicationId="c5d5-a462-a3a0-e776" page="47" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1D3 + 1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Instant Death, Sunder, Two-handed, Reaping Blow</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2646,7 +2666,7 @@ Can never be used to attack units within the firing unit’s Engagement Range. (
       <description>En el turno en que esta miniatura cargue,  se reciba una carga o se efectúe una intervención heróica agrega +1 a la fuerza cuando se ataque con esta arma y resta -1 a la tirada para impactar con esta arma.</description>
     </rule>
     <rule id="b1da-848e-ef8f-fc90" name="Specialist Weapon" hidden="false">
-      <description>La arma con esta regla repite las tiradas para herir de 1&apos;s.</description>
+      <description>La arma con esta regla repite las tiradas para herir.</description>
     </rule>
     <rule id="1513-3da5-3642-6052" name="Murderous Strike (X)" hidden="false">
       <description>Si se obtiene un (X)+ en la tirada para herir, infringe 1 mortal adicional al daño. Si no se declara el valor de X se asume un 6.</description>
